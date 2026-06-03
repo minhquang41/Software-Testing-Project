@@ -33,7 +33,12 @@ public abstract class BasePage {
     // ==================== WAIT METHODS ====================
 
     protected WebElement waitForVisible(WebElement element) {
-        return wait.until(ExpectedConditions.visibilityOf(element));
+        try {
+            return wait.until(ExpectedConditions.visibilityOf(element));
+        } catch (Exception e) {
+            logger.warn("⚠️ Element không visible: {}", e.getClass().getSimpleName());
+            throw e;
+        }
     }
 
     protected WebElement waitForClickable(WebElement element) {

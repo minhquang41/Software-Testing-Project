@@ -17,7 +17,7 @@ public class LoginPage extends BasePage {
     @FindBy(name = "password")
     private WebElement passwordField;
 
-    @FindBy(css = "button[type='submit']")
+    @FindBy(css = "button.oxd-button--main, button[type='submit']")
     private WebElement loginButton;
 
     @FindBy(css = ".oxd-alert-content-text")
@@ -38,8 +38,14 @@ public class LoginPage extends BasePage {
      * Mở trang đăng nhập
      */
     public LoginPage openLoginPage() {
-        navigateTo(config.getBaseUrl() + "/auth/login");
-        logger.info("📄 Mở trang đăng nhập OrangeHRM");
+        try {
+            navigateTo(config.getBaseUrl() + "/auth/login");
+            // Thêm delay để trang load
+            try { Thread.sleep(2000); } catch (InterruptedException ignored) {}
+            logger.info("📄 Mở trang đăng nhập OrangeHRM");
+        } catch (Exception e) {
+            logger.error("❌ Lỗi mở trang login: {}", e.getMessage());
+        }
         return this;
     }
 
@@ -106,8 +112,11 @@ public class LoginPage extends BasePage {
 
     public boolean isLoginPageDisplayed() {
         try {
+            // Đợi một thời gian ngắn để element load
+            Thread.sleep(1000);
             return isDisplayed(usernameField) && isDisplayed(loginButton);
         } catch (Exception e) {
+            logger.warn("⚠️ Lỗi kiểm tra login page: {}", e.getMessage());
             return false;
         }
     }

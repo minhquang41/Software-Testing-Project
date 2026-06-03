@@ -64,9 +64,24 @@ public class AdminPage extends BasePage {
     public boolean isNoRecordFound() {
         try { Thread.sleep(1500); } catch (InterruptedException ignored) {}
         try {
-            By noRecord = By.xpath("//*[contains(text(),'No Records Found')]");
-            if (!driver.findElements(noRecord).isEmpty()) return true;
-        } catch (Exception ignored) {}
-        return driver.getPageSource().contains("No Records Found");
+            // Check cho text "No Records Found"
+            By noRecordXpath = By.xpath("//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'no records found')]");
+            if (!driver.findElements(noRecordXpath).isEmpty()) {
+                return true;
+            }
+            
+            // Check trong page source
+            String pageSource = driver.getPageSource();
+            if (pageSource.contains("No Records Found") || pageSource.contains("no records found")) {
+                return true;
+            }
+            
+            // Check nếu table body trống
+            int rowCount = getUserCount();
+            return rowCount == 0;
+        } catch (Exception e) {
+            logger.warn("⚠️ Error checking for no records: {}", e.getMessage());
+            return false;
+        }
     }
 }

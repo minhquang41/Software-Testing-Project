@@ -17,7 +17,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <selenium.version>4.18.1</selenium.version>
+        <selenium.version>4.25.0</selenium.version>
         <testng.version>7.9.0</testng.version>
         <webdrivermanager.version>5.7.0</webdrivermanager.version>
         <extentreports.version>5.1.1</extentreports.version>
@@ -64,6 +64,13 @@
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+
+        <!-- SLF4J to Log4j2 Bridge -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j2-impl</artifactId>
             <version>${log4j.version}</version>
         </dependency>
 

@@ -1,0 +1,11 @@
+com\orangehrm\pages\BasePage.class
+com\orangehrm\utils\ScreenshotUtils.class
+com\orangehrm\utils\ExtentReportManager.class
+com\orangehrm\pages\AdminPage.class
+com\orangehrm\pages\AddEmployeePage.class
+com\orangehrm\pages\DashboardPage.class
+com\orangehrm\pages\LoginPage.class
+com\orangehrm\utils\DriverManager.class
+com\orangehrm\utils\ConfigReader.class
+com\orangehrm\pages\LeaveListPage.class
+com\orangehrm\pages\EmployeeListPage.class

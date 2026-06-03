@@ -568,3 +568,1601 @@ Session ID: a5b948a96d2cd17f709122e76f5a20d9
 2026-06-03 10:01:53.795 [main] INFO  com.orangehrm.listeners.TestListener - ║  ⏭️ Skipped     : {:3d}                   ║
 2026-06-03 10:01:53.795 [main] INFO  com.orangehrm.listeners.TestListener - ╚════════════════════════════════════════╝
 2026-06-03 10:01:53.862 [main] INFO  com.orangehrm.utils.ExtentReportManager - 📊 Đã xuất báo cáo HTML
+2026-06-03 16:38:15.793 [main] INFO  com.orangehrm.listeners.TestListener - ╔════════════════════════════════════════╗
+2026-06-03 16:38:15.820 [main] INFO  com.orangehrm.listeners.TestListener - ║  🚀 BẮT ĐẦU TEST SUITE: Smoke Tests - Kiểm thử nhanh  ║
+2026-06-03 16:38:15.821 [main] INFO  com.orangehrm.listeners.TestListener - ╚════════════════════════════════════════╝
+2026-06-03 16:38:15.903 [main] INFO  com.orangehrm.utils.ConfigReader - ✅ Đã load cấu hình từ: src/test/resources/config.properties
+2026-06-03 16:38:15.903 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:38:18.271 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:38:18.297 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:38:18.300 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_001_loginSuccessWithValidCredentials]
+2026-06-03 16:38:18.587 [main] INFO  com.orangehrm.utils.ExtentReportManager - 📊 Đã khởi tạo ExtentReports: reports/OrangeHRM_TestReport_20260603_163818.html
+2026-06-03 16:38:18.603 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:38:30.300 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:38:30.301 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:38:30.301 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang đăng nhập hiển thị
+2026-06-03 16:38:32.126 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Nhập username và password từ config (không hardcode)
+2026-06-03 16:38:32.271 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 16:38:32.407 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 16:38:32.407 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Submit đăng nhập, kỳ vọng thành công
+2026-06-03 16:38:46.320 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 16:38:56.387 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận Dashboard hiển thị
+2026-06-03 16:38:56.428 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_001 PASSED: Đăng nhập Admin thành công
+2026-06-03 16:38:56.435 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_001_loginSuccessWithValidCredentials] - Thời gian: 38s
+2026-06-03 16:38:56.788 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:38:56.788 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:38:56.793 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:38:57.742 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:38:57.742 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:38:57.743 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_005_verifyLoginPageUIElements]
+2026-06-03 16:38:57.746 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Mở trang đăng nhập
+2026-06-03 16:39:05.694 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:39:05.696 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:39:05.696 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận form đăng nhập hiển thị đầy đủ (username + password + button)
+2026-06-03 16:39:11.199 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận tiêu đề trang login
+2026-06-03 16:39:11.288 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_005 PASSED: Trang đăng nhập hiển thị đầy đủ các thành phần UI, tiêu đề: Login
+2026-06-03 16:39:11.290 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_005_verifyLoginPageUIElements] - Thời gian: 13s
+2026-06-03 16:39:13.123 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:39:13.123 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:39:13.124 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:39:13.979 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:39:13.983 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:39:13.983 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_007_logoutSuccessfully]
+2026-06-03 16:39:13.986 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Đăng nhập với tài khoản Admin từ config
+2026-06-03 16:39:27.146 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:39:27.146 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:39:38.733 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 16:39:38.881 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 16:40:37.656 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 16:40:57.798 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận đang ở Dashboard
+2026-06-03 16:40:57.838 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Thực hiện đăng xuất
+2026-06-03 16:41:33.123 [main] INFO  com.orangehrm.pages.BasePage - 🚪 Đã đăng xuất
+2026-06-03 16:41:33.124 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận đã quay về trang đăng nhập
+2026-06-03 16:41:43.201 [main] ERROR com.orangehrm.listeners.TestListener - ❌ FAILED: [tc_Login_007_logoutSuccessfully]
+2026-06-03 16:41:43.201 [main] ERROR com.orangehrm.listeners.TestListener -    Lý do: Sau khi đăng xuất phải quay về trang login expected [true] but found [false]
+2026-06-03 16:41:43.622 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:41:43.623 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:41:43.627 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:41:44.593 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:41:44.593 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:42:24.523 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:42:24.523 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:42:25.445 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 16:42:25.616 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 16:42:36.051 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 16:43:16.742 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_001_dashboardDisplayedAfterLogin]
+2026-06-03 16:43:16.745 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Dash_001_dashboardDisplayedAfterLogin]
+2026-06-03 16:43:17.123 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:43:17.125 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:43:17.126 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:43:18.115 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:43:18.116 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:44:01.752 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:44:01.752 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:44:25.308 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_002_adminUsernameDisplayed]
+2026-06-03 16:44:25.310 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Dash_002_adminUsernameDisplayed]
+2026-06-03 16:44:25.687 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:44:25.687 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:44:25.688 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:44:26.550 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:44:26.551 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:45:01.329 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:45:01.330 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:45:02.684 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 16:45:02.804 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 16:45:55.268 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 16:46:35.923 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_003_navigationMenuDisplayed]
+2026-06-03 16:46:35.926 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Dash_003_navigationMenuDisplayed]
+2026-06-03 16:46:36.280 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:46:36.280 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:46:36.283 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:46:37.182 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:46:37.183 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:47:13.331 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:47:13.331 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:47:43.996 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_001_viewEmployeeList]
+2026-06-03 16:47:43.997 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Emp_001_viewEmployeeList]
+2026-06-03 16:47:44.300 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:47:44.300 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:47:44.303 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:47:45.153 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:47:45.153 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:48:23.669 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:48:23.670 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:48:48.366 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_001_accessAdminModule]
+2026-06-03 16:48:48.367 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Admin_001_accessAdminModule]
+2026-06-03 16:48:48.787 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:48:48.790 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:48:48.792 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:48:49.714 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:48:49.715 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:49:27.752 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:49:27.756 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:49:56.468 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_001_accessLeaveModule]
+2026-06-03 16:49:56.470 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Leave_001_accessLeaveModule]
+2026-06-03 16:49:56.830 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:49:56.830 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:49:56.890 [main] INFO  com.orangehrm.listeners.TestListener - ╔════════════════════════════════════════╗
+2026-06-03 16:49:56.890 [main] INFO  com.orangehrm.listeners.TestListener - ║           📊 KẾT QUẢ TEST SUITE        ║
+2026-06-03 16:49:56.890 [main] INFO  com.orangehrm.listeners.TestListener - ╠════════════════════════════════════════╣
+2026-06-03 16:49:56.890 [main] INFO  com.orangehrm.listeners.TestListener - ║  Tổng số test  : {:3d}                   ║
+2026-06-03 16:49:56.890 [main] INFO  com.orangehrm.listeners.TestListener - ║  ✅ Passed      : {:3d}                   ║
+2026-06-03 16:49:56.890 [main] INFO  com.orangehrm.listeners.TestListener - ║  ❌ Failed      : {:3d}                   ║
+2026-06-03 16:49:56.890 [main] INFO  com.orangehrm.listeners.TestListener - ║  ⏭️ Skipped     : {:3d}                   ║
+2026-06-03 16:49:56.890 [main] INFO  com.orangehrm.listeners.TestListener - ╚════════════════════════════════════════╝
+2026-06-03 16:49:57.294 [main] INFO  com.orangehrm.utils.ExtentReportManager - 📊 Đã xuất báo cáo HTML
+2026-06-03 16:49:57.297 [main] INFO  com.orangehrm.listeners.TestListener - ╔════════════════════════════════════════╗
+2026-06-03 16:49:57.299 [main] INFO  com.orangehrm.listeners.TestListener - ║  🚀 BẮT ĐẦU TEST SUITE: Regression Tests - Kiểm thử hồi quy  ║
+2026-06-03 16:49:57.299 [main] INFO  com.orangehrm.listeners.TestListener - ╚════════════════════════════════════════╝
+2026-06-03 16:49:57.302 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:49:58.230 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:49:58.231 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:49:58.233 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_001_loginSuccessWithValidCredentials]
+2026-06-03 16:49:58.234 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:49:58.918 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:49:58.919 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:49:58.919 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang đăng nhập hiển thị
+2026-06-03 16:50:08.966 [main] ERROR com.orangehrm.listeners.TestListener - ❌ FAILED: [tc_Login_001_loginSuccessWithValidCredentials]
+2026-06-03 16:50:08.966 [main] ERROR com.orangehrm.listeners.TestListener -    Lý do: Trang đăng nhập không hiển thị expected [true] but found [false]
+2026-06-03 16:50:09.466 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:50:09.466 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:50:09.468 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:50:10.420 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:50:10.422 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:50:10.422 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_002_loginFailWithWrongPassword]
+2026-06-03 16:50:10.423 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Đăng nhập với đúng username nhưng sai password
+2026-06-03 16:50:45.589 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:50:45.590 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:51:09.471 [main] ERROR com.orangehrm.listeners.TestListener - ❌ FAILED: [tc_Login_002_loginFailWithWrongPassword]
+2026-06-03 16:51:09.471 [main] ERROR com.orangehrm.listeners.TestListener -    Lý do: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (0b01bb1c658724e3e1aa4c732bdead0b)] -> name: username] (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-03 16:51:09.984 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:51:09.984 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:51:09.985 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:51:10.918 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:51:10.920 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:51:10.920 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_003_loginFailWithInvalidUsername]
+2026-06-03 16:51:10.920 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Đăng nhập với username không tồn tại trong hệ thống
+2026-06-03 16:51:48.270 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:51:48.271 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:52:18.923 [main] ERROR com.orangehrm.listeners.TestListener - ❌ FAILED: [tc_Login_003_loginFailWithInvalidUsername]
+2026-06-03 16:52:18.926 [main] ERROR com.orangehrm.listeners.TestListener -    Lý do: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.name: username' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-03 16:52:19.419 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:52:19.419 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:52:19.421 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:52:20.260 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:52:20.260 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:52:20.260 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_004_loginWithEmptyCredentials]
+2026-06-03 16:52:20.262 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Mở trang đăng nhập
+2026-06-03 16:52:48.686 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:52:48.686 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:52:48.686 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Bỏ trống cả username và password, submit thất bại
+2026-06-03 16:53:19.343 [main] ERROR com.orangehrm.listeners.TestListener - ❌ FAILED: [tc_Login_004_loginWithEmptyCredentials]
+2026-06-03 16:53:19.343 [main] ERROR com.orangehrm.listeners.TestListener -    Lý do: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.name: username' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-03 16:53:19.823 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:53:19.825 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:53:19.827 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:53:20.767 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:53:20.770 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:53:20.770 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_006_loginUsernameIsCaseInsensitive]
+2026-06-03 16:53:20.772 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Đăng nhập với username chữ thường 'admin' (OrangeHRM không phân biệt hoa/thường)
+2026-06-03 16:54:05.710 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:54:05.711 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:54:07.678 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: admin
+2026-06-03 16:54:07.832 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 16:54:19.500 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 16:54:29.548 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận đăng nhập thành công → Dashboard hiển thị
+2026-06-03 16:54:29.588 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_006 PASSED: Đăng nhập với 'admin' (chữ thường) thành công
+2026-06-03 16:54:29.590 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_006_loginUsernameIsCaseInsensitive] - Thời gian: 68s
+2026-06-03 16:54:29.983 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:54:29.983 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:54:29.985 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:54:30.855 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:54:30.858 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:54:30.858 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_007_logoutSuccessfully]
+2026-06-03 16:54:30.860 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Đăng nhập với tài khoản Admin từ config
+2026-06-03 16:54:34.794 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:54:34.795 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:54:35.906 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 16:54:36.090 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 16:54:49.661 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 16:54:59.683 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận đang ở Dashboard
+2026-06-03 16:54:59.716 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Thực hiện đăng xuất
+2026-06-03 16:55:12.320 [main] INFO  com.orangehrm.pages.BasePage - 🚪 Đã đăng xuất
+2026-06-03 16:55:12.322 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận đã quay về trang đăng nhập
+2026-06-03 16:55:12.364 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_007 PASSED: Đăng xuất thành công
+2026-06-03 16:55:12.364 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_007_logoutSuccessfully] - Thời gian: 41s
+2026-06-03 16:55:12.752 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:55:12.752 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:55:12.753 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:55:13.598 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:55:13.598 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:55:13.599 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_008_accessDashboardWithoutLogin]
+2026-06-03 16:55:13.601 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Trực tiếp truy cập URL Dashboard mà không qua đăng nhập
+2026-06-03 16:55:18.967 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:55:18.967 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:55:22.878 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2026-06-03 16:55:22.878 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận bị redirect về trang đăng nhập
+2026-06-03 16:55:22.884 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_008 PASSED: Dashboard được bảo vệ, redirect về login đúng cách
+2026-06-03 16:55:22.884 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_008_accessDashboardWithoutLogin] - Thời gian: 9s
+2026-06-03 16:55:23.134 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:55:23.134 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:55:23.137 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:55:23.877 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:55:23.879 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:55:28.926 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:55:28.926 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:55:30.710 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 16:55:30.828 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 16:55:35.389 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 16:55:47.987 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_003_navigationMenuDisplayed]
+2026-06-03 16:55:47.989 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu Admin hiển thị
+2026-06-03 16:55:48.030 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu PIM hiển thị
+2026-06-03 16:55:48.063 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu Leave hiển thị
+2026-06-03 16:55:48.110 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu Time hiển thị
+2026-06-03 16:55:48.170 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_DASH_003 PASSED: Tất cả menu chính hiển thị đầy đủ
+2026-06-03 16:55:48.170 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Dash_003_navigationMenuDisplayed] - Thời gian: 0s
+2026-06-03 16:55:48.470 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:55:48.471 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:55:48.472 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:55:49.330 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:55:49.331 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:56:06.299 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:56:06.300 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:56:10.575 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 16:56:10.733 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 16:56:23.376 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 16:56:33.420 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_004_dashboardWidgetsDisplayed]
+2026-06-03 16:56:33.423 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra số lượng widget trên Dashboard
+2026-06-03 16:56:33.436 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_DASH_004 PASSED: Dashboard hiển thị 14 widget(s)
+2026-06-03 16:56:33.437 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Dash_004_dashboardWidgetsDisplayed] - Thời gian: 0s
+2026-06-03 16:56:33.822 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:56:33.822 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:56:33.823 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:56:34.705 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:56:34.705 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:56:40.136 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:56:40.136 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:56:47.151 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 16:56:47.343 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 16:57:26.266 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 16:57:46.324 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_001_viewEmployeeList]
+2026-06-03 16:57:46.326 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến module PIM - Danh sách nhân viên
+2026-06-03 16:58:10.256 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 16:58:20.297 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang danh sách nhân viên hiển thị
+2026-06-03 16:58:20.318 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra số lượng nhân viên > 0
+2026-06-03 16:58:30.357 [main] ERROR com.orangehrm.listeners.TestListener - ❌ FAILED: [tc_Emp_001_viewEmployeeList]
+2026-06-03 16:58:30.357 [main] ERROR com.orangehrm.listeners.TestListener -    Lý do: Danh sách nhân viên trống - phải có ít nhất 1 nhân viên expected [true] but found [false]
+2026-06-03 16:58:30.859 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:58:30.859 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:58:30.860 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:58:31.721 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:58:31.721 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:58:32.873 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:58:32.874 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 16:59:03.439 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_002_addNewEmployeeSuccessfully]
+2026-06-03 16:59:03.440 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Emp_002_addNewEmployeeSuccessfully]
+2026-06-03 16:59:03.812 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 16:59:03.812 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 16:59:03.813 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 16:59:04.653 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 16:59:04.655 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 16:59:47.001 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 16:59:47.001 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:00:03.108 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:00:03.248 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:01:03.390 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:01:44.116 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_003_addEmployeeWithEmptyLastName]
+2026-06-03 17:01:44.116 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Emp_003_addEmployeeWithEmptyLastName]
+2026-06-03 17:01:44.546 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:01:44.546 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:01:44.548 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:01:45.431 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:01:45.433 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:01:47.843 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:01:47.843 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:02:18.447 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_004_searchEmployeeByName]
+2026-06-03 17:02:18.447 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Emp_004_searchEmployeeByName]
+2026-06-03 17:02:18.829 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:02:18.830 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:02:18.830 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:02:19.720 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:02:19.720 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:02:55.075 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:02:55.075 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:03:19.263 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_005_searchNonExistentEmployee]
+2026-06-03 17:03:19.263 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Emp_005_searchNonExistentEmployee]
+2026-06-03 17:03:19.631 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:03:19.631 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:03:19.632 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:03:20.487 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:03:20.489 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:03:56.814 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:03:56.814 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:04:18.656 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_006_resetSearchFilter]
+2026-06-03 17:04:18.658 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Emp_006_resetSearchFilter]
+2026-06-03 17:04:19.006 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:04:19.006 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:04:19.007 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:04:19.906 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:04:19.908 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:04:53.609 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:04:53.609 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:05:17.114 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_007_verifyAutoGeneratedEmployeeId]
+2026-06-03 17:05:17.114 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Emp_007_verifyAutoGeneratedEmployeeId]
+2026-06-03 17:05:17.468 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:05:17.470 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:05:17.471 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:05:18.380 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:05:18.380 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:05:19.235 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:05:19.237 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:05:49.851 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_001_accessAdminModule]
+2026-06-03 17:05:49.852 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Admin_001_accessAdminModule]
+2026-06-03 17:05:50.221 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:05:50.221 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:05:50.222 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:05:51.047 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:05:51.048 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:05:53.110 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_002_systemUsersListDisplayed]
+2026-06-03 17:05:53.112 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Admin_002_systemUsersListDisplayed]
+2026-06-03 17:05:53.358 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:05:53.359 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:05:53.360 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:05:54.073 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:05:54.074 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:06:32.357 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:06:32.357 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:07:02.989 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_003_searchUserByUsername]
+2026-06-03 17:07:02.990 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Admin_003_searchUserByUsername]
+2026-06-03 17:07:03.350 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:07:03.350 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:07:03.352 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:07:04.218 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:07:04.219 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:07:50.503 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:07:50.503 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:08:20.436 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_004_searchNonExistentUser]
+2026-06-03 17:08:20.436 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Admin_004_searchNonExistentUser]
+2026-06-03 17:08:20.823 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:08:20.823 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:08:20.826 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:08:21.693 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:08:21.695 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:08:44.970 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:08:44.970 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:09:19.203 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_005_resetAdminSearchFilter]
+2026-06-03 17:09:19.205 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Admin_005_resetAdminSearchFilter]
+2026-06-03 17:09:19.573 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:09:19.573 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:09:19.575 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:09:20.419 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:09:20.420 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:10:03.223 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:10:03.223 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:10:33.816 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_001_accessLeaveModule]
+2026-06-03 17:10:33.817 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Leave_001_accessLeaveModule]
+2026-06-03 17:10:34.106 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:10:34.106 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:10:34.107 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:10:34.942 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:10:34.942 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:11:19.646 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:11:19.646 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:11:36.548 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:11:36.670 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:11:52.707 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:12:05.348 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Leave
+2026-06-03 17:12:18.688 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_002_viewLeaveList]
+2026-06-03 17:12:18.688 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Leave_002_viewLeaveList]
+2026-06-03 17:12:18.929 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:12:18.929 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:12:18.930 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:12:19.684 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:12:19.686 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:12:25.605 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:12:25.605 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:12:27.847 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:12:27.985 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:12:42.616 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:12:56.307 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Leave
+2026-06-03 17:13:12.272 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_003_filterLeaveByDateRange]
+2026-06-03 17:13:12.273 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Leave_003_filterLeaveByDateRange]
+2026-06-03 17:13:12.580 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:13:12.580 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:13:12.581 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:13:13.451 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:13:13.451 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:13:19.221 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:13:19.221 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:13:20.384 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:13:20.554 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:13:33.437 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:13:50.500 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Leave
+2026-06-03 17:14:05.090 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_004_resetLeaveFilter]
+2026-06-03 17:14:05.091 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Leave_004_resetLeaveFilter]
+2026-06-03 17:14:05.473 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:14:05.474 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:14:05.521 [main] INFO  com.orangehrm.listeners.TestListener - ╔════════════════════════════════════════╗
+2026-06-03 17:14:05.521 [main] INFO  com.orangehrm.listeners.TestListener - ║           📊 KẾT QUẢ TEST SUITE        ║
+2026-06-03 17:14:05.521 [main] INFO  com.orangehrm.listeners.TestListener - ╠════════════════════════════════════════╣
+2026-06-03 17:14:05.521 [main] INFO  com.orangehrm.listeners.TestListener - ║  Tổng số test  : {:3d}                   ║
+2026-06-03 17:14:05.521 [main] INFO  com.orangehrm.listeners.TestListener - ║  ✅ Passed      : {:3d}                   ║
+2026-06-03 17:14:05.521 [main] INFO  com.orangehrm.listeners.TestListener - ║  ❌ Failed      : {:3d}                   ║
+2026-06-03 17:14:05.521 [main] INFO  com.orangehrm.listeners.TestListener - ║  ⏭️ Skipped     : {:3d}                   ║
+2026-06-03 17:14:05.521 [main] INFO  com.orangehrm.listeners.TestListener - ╚════════════════════════════════════════╝
+2026-06-03 17:14:05.582 [main] INFO  com.orangehrm.utils.ExtentReportManager - 📊 Đã xuất báo cáo HTML
+2026-06-03 17:16:36.401 [main] INFO  com.orangehrm.listeners.TestListener - ╔════════════════════════════════════════╗
+2026-06-03 17:16:36.428 [main] INFO  com.orangehrm.listeners.TestListener - ║  🚀 BẮT ĐẦU TEST SUITE: Smoke Tests - Kiểm thử nhanh  ║
+2026-06-03 17:16:36.429 [main] INFO  com.orangehrm.listeners.TestListener - ╚════════════════════════════════════════╝
+2026-06-03 17:16:36.519 [main] INFO  com.orangehrm.utils.ConfigReader - ✅ Đã load cấu hình từ: src/test/resources/config.properties
+2026-06-03 17:16:36.520 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:16:38.020 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:16:38.042 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:16:38.045 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_001_loginSuccessWithValidCredentials]
+2026-06-03 17:16:38.300 [main] INFO  com.orangehrm.utils.ExtentReportManager - 📊 Đã khởi tạo ExtentReports: reports/OrangeHRM_TestReport_20260603_171638.html
+2026-06-03 17:16:38.318 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:16:59.125 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:16:59.125 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:16:59.127 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang đăng nhập hiển thị
+2026-06-03 17:17:09.167 [main] ERROR com.orangehrm.listeners.TestListener - ❌ FAILED: [tc_Login_001_loginSuccessWithValidCredentials]
+2026-06-03 17:17:09.169 [main] ERROR com.orangehrm.listeners.TestListener -    Lý do: Trang đăng nhập không hiển thị expected [true] but found [false]
+2026-06-03 17:17:09.480 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:17:09.480 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:17:09.483 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:17:10.221 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:17:10.223 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:17:10.223 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_005_verifyLoginPageUIElements]
+2026-06-03 17:17:10.226 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Mở trang đăng nhập
+2026-06-03 17:17:27.498 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:17:27.498 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:17:27.498 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận form đăng nhập hiển thị đầy đủ (username + password + button)
+2026-06-03 17:17:37.534 [main] ERROR com.orangehrm.listeners.TestListener - ❌ FAILED: [tc_Login_005_verifyLoginPageUIElements]
+2026-06-03 17:17:37.534 [main] ERROR com.orangehrm.listeners.TestListener -    Lý do: Form đăng nhập không hiển thị đầy đủ expected [true] but found [false]
+2026-06-03 17:17:37.890 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:17:37.890 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:17:37.893 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:17:38.682 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:17:38.683 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:17:38.685 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_007_logoutSuccessfully]
+2026-06-03 17:17:38.685 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Đăng nhập với tài khoản Admin từ config
+2026-06-03 17:18:19.417 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:18:19.419 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:18:38.786 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:18:38.950 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:19:39.122 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:19:49.180 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận đang ở Dashboard
+2026-06-03 17:20:19.800 [main] ERROR com.orangehrm.listeners.TestListener - ❌ FAILED: [tc_Login_007_logoutSuccessfully]
+2026-06-03 17:20:19.800 [main] ERROR com.orangehrm.listeners.TestListener -    Lý do: Tiền điều kiện thất bại: không vào được Dashboard expected [true] but found [false]
+2026-06-03 17:20:20.248 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:20:20.248 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:20:20.252 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:20:21.100 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:20:21.102 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:21:05.423 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:21:05.423 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:21:22.780 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:21:22.906 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:22:23.050 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:23:03.755 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_001_dashboardDisplayedAfterLogin]
+2026-06-03 17:23:03.756 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Dash_001_dashboardDisplayedAfterLogin]
+2026-06-03 17:23:03.950 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:23:03.950 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:23:03.952 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:23:04.663 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:23:04.665 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:23:08.485 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:23:08.485 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:23:09.902 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:23:10.064 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:23:22.337 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:23:32.417 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_002_adminUsernameDisplayed]
+2026-06-03 17:23:32.417 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Dash_002_adminUsernameDisplayed]
+2026-06-03 17:23:32.664 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:23:32.666 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:23:32.667 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:23:33.480 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:23:33.482 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:23:36.651 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:23:36.652 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:23:37.195 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:23:37.335 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:23:49.277 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:23:59.340 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_003_navigationMenuDisplayed]
+2026-06-03 17:23:59.340 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Dash_003_navigationMenuDisplayed]
+2026-06-03 17:23:59.569 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:23:59.569 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:23:59.570 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:24:00.273 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:24:00.274 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:24:03.760 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:24:03.760 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:24:04.290 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:24:04.431 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:24:15.801 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:24:25.862 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_001_viewEmployeeList]
+2026-06-03 17:24:25.864 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến module PIM - Danh sách nhân viên
+2026-06-03 17:24:26.495 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 17:24:38.590 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang danh sách nhân viên hiển thị
+2026-06-03 17:24:38.596 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra số lượng nhân viên > 0
+2026-06-03 17:24:38.612 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_001 PASSED: Danh sách hiển thị 50 nhân viên
+2026-06-03 17:24:38.612 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_001_viewEmployeeList] - Thời gian: 12s
+2026-06-03 17:24:38.833 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:24:38.833 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:24:38.835 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:24:39.540 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:24:39.540 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:24:42.373 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:24:42.373 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:24:42.924 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:24:43.058 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:24:54.858 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:25:05.400 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Admin
+2026-06-03 17:25:17.036 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_001_accessAdminModule]
+2026-06-03 17:25:17.036 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận module Admin đã mở
+2026-06-03 17:25:17.046 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_ADMIN_001 PASSED: Module Admin truy cập thành công
+2026-06-03 17:25:17.047 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Admin_001_accessAdminModule] - Thời gian: 0s
+2026-06-03 17:25:17.290 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:25:17.291 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:25:17.291 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:25:18.079 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:25:18.080 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:25:21.457 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:25:21.459 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:25:21.990 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:25:22.135 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:25:22.883 [main] INFO  com.orangehrm.listeners.TestListener - ╔════════════════════════════════════════╗
+2026-06-03 17:25:22.908 [main] INFO  com.orangehrm.listeners.TestListener - ║  🚀 BẮT ĐẦU TEST SUITE: Smoke Tests - Kiểm thử nhanh  ║
+2026-06-03 17:25:22.910 [main] INFO  com.orangehrm.listeners.TestListener - ╚════════════════════════════════════════╝
+2026-06-03 17:25:22.992 [main] INFO  com.orangehrm.utils.ConfigReader - ✅ Đã load cấu hình từ: src/test/resources/config.properties
+2026-06-03 17:25:22.992 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:25:24.552 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:25:24.579 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:25:24.582 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_001_loginSuccessWithValidCredentials]
+2026-06-03 17:25:24.857 [main] INFO  com.orangehrm.utils.ExtentReportManager - 📊 Đã khởi tạo ExtentReports: reports/OrangeHRM_TestReport_20260603_172524.html
+2026-06-03 17:25:24.876 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:25:28.450 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:25:29.002 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:25:29.004 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang đăng nhập hiển thị
+2026-06-03 17:25:29.057 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Nhập username và password từ config (không hardcode)
+2026-06-03 17:25:29.193 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:25:29.330 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:25:29.330 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Submit đăng nhập, kỳ vọng thành công
+2026-06-03 17:25:33.647 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:25:40.587 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:25:44.296 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Leave
+2026-06-03 17:25:50.613 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận Dashboard hiển thị
+2026-06-03 17:25:50.650 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_001 PASSED: Đăng nhập Admin thành công
+2026-06-03 17:25:50.652 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_001_loginSuccessWithValidCredentials] - Thời gian: 26s
+2026-06-03 17:25:50.914 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:25:50.914 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:25:50.917 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:25:51.765 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:25:51.766 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:25:51.766 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_005_verifyLoginPageUIElements]
+2026-06-03 17:25:51.770 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Mở trang đăng nhập
+2026-06-03 17:25:55.456 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_001_accessLeaveModule]
+2026-06-03 17:25:55.456 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang Leave List hiển thị
+2026-06-03 17:25:55.464 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LEAVE_001 PASSED: Truy cập module Leave thành công
+2026-06-03 17:25:55.464 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Leave_001_accessLeaveModule] - Thời gian: 0s
+2026-06-03 17:25:55.697 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:25:55.790 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:25:55.792 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:25:55.823 [main] INFO  com.orangehrm.listeners.TestListener - ╔════════════════════════════════════════╗
+2026-06-03 17:25:55.823 [main] INFO  com.orangehrm.listeners.TestListener - ║           📊 KẾT QUẢ TEST SUITE        ║
+2026-06-03 17:25:55.823 [main] INFO  com.orangehrm.listeners.TestListener - ╠════════════════════════════════════════╣
+2026-06-03 17:25:55.824 [main] INFO  com.orangehrm.listeners.TestListener - ║  Tổng số test  : {:3d}                   ║
+2026-06-03 17:25:55.824 [main] INFO  com.orangehrm.listeners.TestListener - ║  ✅ Passed      : {:3d}                   ║
+2026-06-03 17:25:55.824 [main] INFO  com.orangehrm.listeners.TestListener - ║  ❌ Failed      : {:3d}                   ║
+2026-06-03 17:25:55.824 [main] INFO  com.orangehrm.listeners.TestListener - ║  ⏭️ Skipped     : {:3d}                   ║
+2026-06-03 17:25:55.824 [main] INFO  com.orangehrm.listeners.TestListener - ╚════════════════════════════════════════╝
+2026-06-03 17:25:56.132 [main] INFO  com.orangehrm.utils.ExtentReportManager - 📊 Đã xuất báo cáo HTML
+2026-06-03 17:25:56.134 [main] INFO  com.orangehrm.listeners.TestListener - ╔════════════════════════════════════════╗
+2026-06-03 17:25:56.135 [main] INFO  com.orangehrm.listeners.TestListener - ║  🚀 BẮT ĐẦU TEST SUITE: Regression Tests - Kiểm thử hồi quy  ║
+2026-06-03 17:25:56.135 [main] INFO  com.orangehrm.listeners.TestListener - ╚════════════════════════════════════════╝
+2026-06-03 17:25:56.137 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:25:56.921 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:25:56.923 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:25:56.923 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_001_loginSuccessWithValidCredentials]
+2026-06-03 17:25:56.925 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:26:00.616 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:26:00.616 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:26:00.616 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang đăng nhập hiển thị
+2026-06-03 17:26:01.115 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Nhập username và password từ config (không hardcode)
+2026-06-03 17:26:01.264 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:26:01.440 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:26:01.440 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Submit đăng nhập, kỳ vọng thành công
+2026-06-03 17:26:13.218 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:26:16.217 [main] ERROR com.orangehrm.listeners.TestListener - ❌ FAILED: [tc_Login_005_verifyLoginPageUIElements]
+2026-06-03 17:26:16.220 [main] ERROR com.orangehrm.listeners.TestListener -    Lý do: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.217)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [676306838cbe726ccc076a4b6d59f611, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\THINKP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50871}, goog:processID: 26964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50871/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 676306838cbe726ccc076a4b6d59f611
+2026-06-03 17:26:16.230 [main] ERROR com.orangehrm.utils.ScreenshotUtils - ❌ Không thể chụp screenshot: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.217)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [676306838cbe726ccc076a4b6d59f611, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\THINKP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50871}, goog:processID: 26964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50871/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 676306838cbe726ccc076a4b6d59f611
+2026-06-03 17:26:16.340 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:26:16.342 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:26:16.343 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:26:17.218 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:26:17.219 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:26:17.220 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_007_logoutSuccessfully]
+2026-06-03 17:26:17.222 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Đăng nhập với tài khoản Admin từ config
+2026-06-03 17:26:20.545 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:26:22.953 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:26:23.104 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:26:23.256 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận Dashboard hiển thị
+2026-06-03 17:26:23.272 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:26:23.306 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_001 PASSED: Đăng nhập Admin thành công
+2026-06-03 17:26:23.307 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_001_loginSuccessWithValidCredentials] - Thời gian: 26s
+2026-06-03 17:26:23.601 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:26:23.601 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:26:23.603 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:26:24.420 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:26:24.420 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:26:24.420 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_002_loginFailWithWrongPassword]
+2026-06-03 17:26:24.422 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Đăng nhập với đúng username nhưng sai password
+2026-06-03 17:26:27.681 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:26:27.683 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:26:28.252 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:26:28.388 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:26:30.387 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: fail)
+2026-06-03 17:26:30.387 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận thông báo lỗi xuất hiện
+2026-06-03 17:26:30.412 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra nội dung thông báo lỗi
+2026-06-03 17:26:30.469 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_002 PASSED: Hệ thống hiển thị lỗi khi mật khẩu sai
+2026-06-03 17:26:30.469 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_002_loginFailWithWrongPassword] - Thời gian: 6s
+2026-06-03 17:26:30.663 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:26:30.663 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:26:30.664 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:26:31.423 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:26:31.425 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:26:31.425 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_003_loginFailWithInvalidUsername]
+2026-06-03 17:26:31.426 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Đăng nhập với username không tồn tại trong hệ thống
+2026-06-03 17:26:34.628 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:26:34.628 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:26:35.120 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:26:35.184 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: InvalidUser_XYZ_999
+2026-06-03 17:26:35.310 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:26:36.883 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: fail)
+2026-06-03 17:26:36.884 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận thông báo lỗi xuất hiện
+2026-06-03 17:26:36.957 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_003 PASSED: Hệ thống từ chối username không hợp lệ
+2026-06-03 17:26:36.959 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_003_loginFailWithInvalidUsername] - Thời gian: 5s
+2026-06-03 17:26:37.143 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:26:37.145 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:26:37.145 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:26:37.839 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:26:37.840 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:26:37.840 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_004_loginWithEmptyCredentials]
+2026-06-03 17:26:37.840 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Mở trang đăng nhập
+2026-06-03 17:26:41.322 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:26:41.322 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:26:41.324 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Bỏ trống cả username và password, submit thất bại
+2026-06-03 17:26:42.050 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: 
+2026-06-03 17:26:42.213 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:26:42.406 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: fail)
+2026-06-03 17:26:42.406 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận vẫn ở trang đăng nhập (không chuyển sang Dashboard)
+2026-06-03 17:26:42.473 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_004 PASSED: Hệ thống không cho phép đăng nhập khi thông tin trống
+2026-06-03 17:26:42.473 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_004_loginWithEmptyCredentials] - Thời gian: 4s
+2026-06-03 17:26:42.663 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:26:42.665 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:26:42.666 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:26:43.376 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:26:43.378 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:26:43.379 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_006_loginUsernameIsCaseInsensitive]
+2026-06-03 17:26:43.380 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Đăng nhập với username chữ thường 'admin' (OrangeHRM không phân biệt hoa/thường)
+2026-06-03 17:26:45.164 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận đang ở Dashboard
+2026-06-03 17:26:45.205 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Thực hiện đăng xuất
+2026-06-03 17:26:46.535 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:26:46.535 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:26:47.062 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: admin
+2026-06-03 17:26:47.198 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:26:56.425 [main] INFO  com.orangehrm.pages.BasePage - 🚪 Đã đăng xuất
+2026-06-03 17:26:56.427 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận đã quay về trang đăng nhập
+2026-06-03 17:26:56.490 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_007 PASSED: Đăng xuất thành công
+2026-06-03 17:26:56.492 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_007_logoutSuccessfully] - Thời gian: 39s
+2026-06-03 17:26:56.798 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:26:56.798 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:26:56.805 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:26:57.638 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:26:57.639 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:26:58.565 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:27:01.480 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:27:01.954 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:27:02.103 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:27:02.248 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:27:08.589 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận đăng nhập thành công → Dashboard hiển thị
+2026-06-03 17:27:08.630 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_006 PASSED: Đăng nhập với 'admin' (chữ thường) thành công
+2026-06-03 17:27:08.630 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_006_loginUsernameIsCaseInsensitive] - Thời gian: 25s
+2026-06-03 17:27:08.940 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:27:08.940 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:27:08.942 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:27:09.773 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:27:09.774 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:27:09.776 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_007_logoutSuccessfully]
+2026-06-03 17:27:09.776 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Đăng nhập với tài khoản Admin từ config
+2026-06-03 17:27:14.030 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:27:14.401 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:27:14.401 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:27:15.029 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:27:15.180 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:27:24.100 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_001_dashboardDisplayedAfterLogin]
+2026-06-03 17:27:24.102 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận URL chứa 'dashboard'
+2026-06-03 17:27:24.108 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_DASH_001 PASSED: Dashboard hiển thị đúng
+2026-06-03 17:27:24.108 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Dash_001_dashboardDisplayedAfterLogin] - Thời gian: 0s
+2026-06-03 17:27:24.362 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:27:24.363 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:27:24.363 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:27:25.050 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:27:25.050 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:27:26.846 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:27:29.983 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:27:30.518 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:27:30.648 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:27:30.837 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:27:36.874 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận đang ở Dashboard
+2026-06-03 17:27:36.912 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Thực hiện đăng xuất
+2026-06-03 17:27:42.286 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:27:48.671 [main] INFO  com.orangehrm.pages.BasePage - 🚪 Đã đăng xuất
+2026-06-03 17:27:48.673 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận đã quay về trang đăng nhập
+2026-06-03 17:27:48.715 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_007 PASSED: Đăng xuất thành công
+2026-06-03 17:27:48.717 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_007_logoutSuccessfully] - Thời gian: 38s
+2026-06-03 17:27:48.997 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:27:48.997 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:27:49.000 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:27:49.820 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:27:49.822 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:27:49.822 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_008_accessDashboardWithoutLogin]
+2026-06-03 17:27:49.823 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Trực tiếp truy cập URL Dashboard mà không qua đăng nhập
+2026-06-03 17:27:52.360 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_002_adminUsernameDisplayed]
+2026-06-03 17:27:52.360 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Lấy tên người dùng hiển thị trên thanh menu
+2026-06-03 17:27:52.404 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận tên người dùng không rỗng
+2026-06-03 17:27:52.404 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_DASH_002 PASSED: Tên người dùng hiển thị: manda user
+2026-06-03 17:27:52.406 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Dash_002_adminUsernameDisplayed] - Thời gian: 0s
+2026-06-03 17:27:52.656 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:27:52.657 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:27:52.657 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:27:53.375 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:27:53.375 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:27:53.633 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:27:53.635 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:27:54.555 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2026-06-03 17:27:54.555 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận bị redirect về trang đăng nhập
+2026-06-03 17:27:54.562 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_008 PASSED: Dashboard được bảo vệ, redirect về login đúng cách
+2026-06-03 17:27:54.563 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_008_accessDashboardWithoutLogin] - Thời gian: 4s
+2026-06-03 17:27:54.747 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:27:54.747 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:27:54.748 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:27:55.480 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:27:55.480 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:27:56.860 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:27:57.356 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:27:57.535 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:27:57.693 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:27:58.788 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:27:58.788 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:27:59.328 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:27:59.469 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:28:09.108 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:28:11.445 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:28:19.160 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_003_navigationMenuDisplayed]
+2026-06-03 17:28:19.162 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu Admin hiển thị
+2026-06-03 17:28:19.200 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu PIM hiển thị
+2026-06-03 17:28:19.238 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu Leave hiển thị
+2026-06-03 17:28:19.286 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu Time hiển thị
+2026-06-03 17:28:19.346 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_DASH_003 PASSED: Tất cả menu chính hiển thị đầy đủ
+2026-06-03 17:28:19.347 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Dash_003_navigationMenuDisplayed] - Thời gian: 0s
+2026-06-03 17:28:19.622 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:28:19.622 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:28:19.624 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:28:20.485 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:28:20.486 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:28:21.520 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_003_navigationMenuDisplayed]
+2026-06-03 17:28:21.521 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu Admin hiển thị
+2026-06-03 17:28:21.566 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu PIM hiển thị
+2026-06-03 17:28:21.597 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu Leave hiển thị
+2026-06-03 17:28:21.636 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu Time hiển thị
+2026-06-03 17:28:21.686 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_DASH_003 PASSED: Tất cả menu chính hiển thị đầy đủ
+2026-06-03 17:28:21.686 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Dash_003_navigationMenuDisplayed] - Thời gian: 0s
+2026-06-03 17:28:21.937 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:28:21.937 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:28:21.939 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:28:22.638 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:28:22.638 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:28:23.963 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:28:24.466 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:28:24.636 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:28:24.824 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:28:25.762 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:28:25.763 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:28:26.297 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:28:26.415 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:28:36.114 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:28:38.247 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:28:46.177 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_001_viewEmployeeList]
+2026-06-03 17:28:46.178 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến module PIM - Danh sách nhân viên
+2026-06-03 17:28:47.800 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 17:28:48.309 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_004_dashboardWidgetsDisplayed]
+2026-06-03 17:28:48.311 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra số lượng widget trên Dashboard
+2026-06-03 17:28:48.326 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_DASH_004 PASSED: Dashboard hiển thị 14 widget(s)
+2026-06-03 17:28:48.326 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Dash_004_dashboardWidgetsDisplayed] - Thời gian: 0s
+2026-06-03 17:28:48.649 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:28:48.649 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:28:48.651 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:28:49.395 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:28:49.395 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:28:53.980 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:28:53.980 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:28:55.487 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:28:55.607 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:29:01.749 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang danh sách nhân viên hiển thị
+2026-06-03 17:29:01.755 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra số lượng nhân viên > 0
+2026-06-03 17:29:01.774 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_001 PASSED: Danh sách hiển thị 50 nhân viên
+2026-06-03 17:29:01.774 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_001_viewEmployeeList] - Thời gian: 15s
+2026-06-03 17:29:02.070 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:29:02.070 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:29:02.070 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:29:02.789 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:29:02.790 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:29:07.008 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:29:08.348 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:29:08.495 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:29:08.704 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:29:09.759 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:29:19.857 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_001_viewEmployeeList]
+2026-06-03 17:29:19.859 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến module PIM - Danh sách nhân viên
+2026-06-03 17:29:21.983 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 17:29:24.463 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:29:35.842 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang danh sách nhân viên hiển thị
+2026-06-03 17:29:35.849 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra số lượng nhân viên > 0
+2026-06-03 17:29:35.867 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_001 PASSED: Danh sách hiển thị 50 nhân viên
+2026-06-03 17:29:35.869 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_001_viewEmployeeList] - Thời gian: 16s
+2026-06-03 17:29:36.058 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Admin
+2026-06-03 17:29:36.175 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:29:36.175 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:29:36.177 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:29:37.065 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:29:37.065 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:29:40.252 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:29:40.252 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:29:40.943 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:29:41.134 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:29:47.322 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_001_accessAdminModule]
+2026-06-03 17:29:47.323 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận module Admin đã mở
+2026-06-03 17:29:47.334 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_ADMIN_001 PASSED: Module Admin truy cập thành công
+2026-06-03 17:29:47.334 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Admin_001_accessAdminModule] - Thời gian: 0s
+2026-06-03 17:29:47.608 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:29:47.609 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:29:47.611 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:29:48.464 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:29:48.464 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:29:52.111 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:29:52.472 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:29:52.610 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:29:52.757 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:29:52.922 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:30:02.564 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_002_addNewEmployeeSuccessfully]
+2026-06-03 17:30:02.566 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến PIM
+2026-06-03 17:30:04.340 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:30:34.304 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 17:30:44.351 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Click nút Add Employee
+2026-06-03 17:30:46.378 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Leave
+2026-06-03 17:30:56.420 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_001_accessLeaveModule]
+2026-06-03 17:30:56.421 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang Leave List hiển thị
+2026-06-03 17:30:56.432 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LEAVE_001 PASSED: Truy cập module Leave thành công
+2026-06-03 17:30:56.433 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Leave_001_accessLeaveModule] - Thời gian: 0s
+2026-06-03 17:30:56.743 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:30:56.743 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:30:56.781 [main] INFO  com.orangehrm.listeners.TestListener - ╔════════════════════════════════════════╗
+2026-06-03 17:30:56.783 [main] INFO  com.orangehrm.listeners.TestListener - ║           📊 KẾT QUẢ TEST SUITE        ║
+2026-06-03 17:30:56.783 [main] INFO  com.orangehrm.listeners.TestListener - ╠════════════════════════════════════════╣
+2026-06-03 17:30:56.783 [main] INFO  com.orangehrm.listeners.TestListener - ║  Tổng số test  : {:3d}                   ║
+2026-06-03 17:30:56.783 [main] INFO  com.orangehrm.listeners.TestListener - ║  ✅ Passed      : {:3d}                   ║
+2026-06-03 17:30:56.783 [main] INFO  com.orangehrm.listeners.TestListener - ║  ❌ Failed      : {:3d}                   ║
+2026-06-03 17:30:56.783 [main] INFO  com.orangehrm.listeners.TestListener - ║  ⏭️ Skipped     : {:3d}                   ║
+2026-06-03 17:30:56.783 [main] INFO  com.orangehrm.listeners.TestListener - ╚════════════════════════════════════════╝
+2026-06-03 17:30:57.274 [main] INFO  com.orangehrm.utils.ExtentReportManager - 📊 Đã xuất báo cáo HTML
+2026-06-03 17:30:57.277 [main] INFO  com.orangehrm.listeners.TestListener - ╔════════════════════════════════════════╗
+2026-06-03 17:30:57.279 [main] INFO  com.orangehrm.listeners.TestListener - ║  🚀 BẮT ĐẦU TEST SUITE: Regression Tests - Kiểm thử hồi quy  ║
+2026-06-03 17:30:57.279 [main] INFO  com.orangehrm.listeners.TestListener - ╚════════════════════════════════════════╝
+2026-06-03 17:30:57.282 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:30:58.165 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:30:58.167 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:30:58.168 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_001_loginSuccessWithValidCredentials]
+2026-06-03 17:30:58.169 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:31:06.334 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:31:09.389 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:31:09.391 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang đăng nhập hiển thị
+2026-06-03 17:31:09.444 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Nhập username và password từ config (không hardcode)
+2026-06-03 17:31:09.588 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:31:09.738 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:31:09.739 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Submit đăng nhập, kỳ vọng thành công
+2026-06-03 17:31:18.130 [main] INFO  com.orangehrm.pages.BasePage - ➕ Click thêm nhân viên mới
+2026-06-03 17:31:23.675 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:31:28.150 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận form thêm nhân viên hiển thị
+2026-06-03 17:31:28.160 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điền thông tin nhân viên: Test AutoUser8159
+2026-06-03 17:31:28.527 [main] INFO  com.orangehrm.pages.BasePage - 📝 Điền thông tin: Test  AutoUser8159
+2026-06-03 17:31:28.527 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Lưu thông tin nhân viên
+2026-06-03 17:31:33.732 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận Dashboard hiển thị
+2026-06-03 17:31:33.763 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_001 PASSED: Đăng nhập Admin thành công
+2026-06-03 17:31:33.765 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_001_loginSuccessWithValidCredentials] - Thời gian: 35s
+2026-06-03 17:31:34.133 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:31:34.133 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:31:34.135 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:31:34.970 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:31:34.972 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:31:34.972 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_002_loginFailWithWrongPassword]
+2026-06-03 17:31:34.972 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Đăng nhập với đúng username nhưng sai password
+2026-06-03 17:31:40.277 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:31:41.324 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:31:41.449 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:31:41.586 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:31:44.264 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: fail)
+2026-06-03 17:31:44.264 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận thông báo lỗi xuất hiện
+2026-06-03 17:31:44.283 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra nội dung thông báo lỗi
+2026-06-03 17:31:44.328 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_002 PASSED: Hệ thống hiển thị lỗi khi mật khẩu sai
+2026-06-03 17:31:44.328 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_002_loginFailWithWrongPassword] - Thời gian: 9s
+2026-06-03 17:31:44.530 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:31:44.530 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:31:44.532 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:31:45.180 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:31:45.180 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:31:45.182 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_003_loginFailWithInvalidUsername]
+2026-06-03 17:31:45.182 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Đăng nhập với username không tồn tại trong hệ thống
+2026-06-03 17:31:48.744 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:31:49.284 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:31:49.435 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: InvalidUser_XYZ_999
+2026-06-03 17:31:49.592 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:31:50.910 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: fail)
+2026-06-03 17:31:50.912 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận thông báo lỗi xuất hiện
+2026-06-03 17:31:50.981 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_003 PASSED: Hệ thống từ chối username không hợp lệ
+2026-06-03 17:31:50.983 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_003_loginFailWithInvalidUsername] - Thời gian: 5s
+2026-06-03 17:31:51.198 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:31:51.198 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:31:51.200 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:31:51.867 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:31:51.867 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:31:51.867 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_004_loginWithEmptyCredentials]
+2026-06-03 17:31:51.869 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Mở trang đăng nhập
+2026-06-03 17:31:53.890 [main] INFO  com.orangehrm.pages.BasePage - 💾 Đã lưu thông tin nhân viên
+2026-06-03 17:31:53.892 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận lưu thành công
+2026-06-03 17:31:55.457 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:31:55.905 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:31:55.905 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Bỏ trống cả username và password, submit thất bại
+2026-06-03 17:31:55.999 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: 
+2026-06-03 17:31:56.130 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:31:56.257 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: fail)
+2026-06-03 17:31:56.257 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận vẫn ở trang đăng nhập (không chuyển sang Dashboard)
+2026-06-03 17:31:56.289 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_004 PASSED: Hệ thống không cho phép đăng nhập khi thông tin trống
+2026-06-03 17:31:56.290 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_004_loginWithEmptyCredentials] - Thời gian: 4s
+2026-06-03 17:31:56.476 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:31:56.476 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:31:56.477 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:31:57.194 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:31:57.194 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:31:57.194 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_006_loginUsernameIsCaseInsensitive]
+2026-06-03 17:31:57.196 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Đăng nhập với username chữ thường 'admin' (OrangeHRM không phân biệt hoa/thường)
+2026-06-03 17:32:00.073 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:32:00.800 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:32:00.900 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: admin
+2026-06-03 17:32:01.090 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:32:12.326 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:32:22.358 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận đăng nhập thành công → Dashboard hiển thị
+2026-06-03 17:32:22.388 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_006 PASSED: Đăng nhập với 'admin' (chữ thường) thành công
+2026-06-03 17:32:22.389 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_006_loginUsernameIsCaseInsensitive] - Thời gian: 25s
+2026-06-03 17:32:22.712 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:32:22.712 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:32:22.713 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:32:23.533 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:32:23.535 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:32:23.535 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_007_logoutSuccessfully]
+2026-06-03 17:32:23.536 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Đăng nhập với tài khoản Admin từ config
+2026-06-03 17:32:24.472 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_002 PASSED: Thêm nhân viên Test AutoUser8159 thành công
+2026-06-03 17:32:24.472 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_002_addNewEmployeeSuccessfully] - Thời gian: 141s
+2026-06-03 17:32:24.784 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:32:24.785 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:32:24.785 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:32:25.483 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:32:25.483 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:32:26.813 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:32:27.416 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:32:27.555 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:32:27.692 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:32:39.213 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:32:40.678 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:32:40.679 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:32:41.224 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:32:41.365 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:32:49.247 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận đang ở Dashboard
+2026-06-03 17:32:49.284 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Thực hiện đăng xuất
+2026-06-03 17:32:52.713 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:33:00.566 [main] INFO  com.orangehrm.pages.BasePage - 🚪 Đã đăng xuất
+2026-06-03 17:33:00.566 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận đã quay về trang đăng nhập
+2026-06-03 17:33:00.602 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_007 PASSED: Đăng xuất thành công
+2026-06-03 17:33:00.602 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_007_logoutSuccessfully] - Thời gian: 37s
+2026-06-03 17:33:00.893 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:33:00.893 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:33:00.895 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:33:01.774 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:33:01.774 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:33:01.775 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_008_accessDashboardWithoutLogin]
+2026-06-03 17:33:01.777 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Trực tiếp truy cập URL Dashboard mà không qua đăng nhập
+2026-06-03 17:33:02.800 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_003_addEmployeeWithEmptyLastName]
+2026-06-03 17:33:02.800 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến PIM và click Add Employee
+2026-06-03 17:33:03.332 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 17:33:04.863 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:33:05.331 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:33:06.570 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2026-06-03 17:33:06.570 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận bị redirect về trang đăng nhập
+2026-06-03 17:33:06.576 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_008 PASSED: Dashboard được bảo vệ, redirect về login đúng cách
+2026-06-03 17:33:06.576 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_008_accessDashboardWithoutLogin] - Thời gian: 4s
+2026-06-03 17:33:06.790 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:33:06.790 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:33:06.790 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:33:07.515 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:33:07.515 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:33:10.657 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:33:11.271 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:33:11.359 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:33:11.506 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:33:22.762 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:33:26.174 [main] INFO  com.orangehrm.pages.BasePage - ➕ Click thêm nhân viên mới
+2026-06-03 17:33:32.825 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_003_navigationMenuDisplayed]
+2026-06-03 17:33:32.825 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu Admin hiển thị
+2026-06-03 17:33:32.852 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu PIM hiển thị
+2026-06-03 17:33:32.878 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu Leave hiển thị
+2026-06-03 17:33:32.916 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu Time hiển thị
+2026-06-03 17:33:32.956 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_DASH_003 PASSED: Tất cả menu chính hiển thị đầy đủ
+2026-06-03 17:33:32.956 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Dash_003_navigationMenuDisplayed] - Thời gian: 0s
+2026-06-03 17:33:33.262 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:33:33.262 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:33:33.263 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:33:34.013 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:33:34.014 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:33:36.228 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Chỉ nhập First Name, bỏ trống Last Name
+2026-06-03 17:33:36.485 [main] INFO  com.orangehrm.pages.BasePage - 📝 Điền thông tin: TestOnly  
+2026-06-03 17:33:36.485 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Click Save với Last Name trống
+2026-06-03 17:33:37.575 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:33:38.204 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:33:38.296 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:33:38.402 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:33:46.662 [main] INFO  com.orangehrm.pages.BasePage - 💾 Đã lưu thông tin nhân viên
+2026-06-03 17:33:46.664 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận thông báo lỗi validation xuất hiện
+2026-06-03 17:33:46.682 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_003 PASSED: Validation hoạt động đúng khi thiếu Last Name
+2026-06-03 17:33:46.683 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_003_addEmployeeWithEmptyLastName] - Thời gian: 43s
+2026-06-03 17:33:46.940 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:33:46.940 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:33:46.941 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:33:47.790 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:33:47.790 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:33:49.776 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:33:51.131 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:33:51.131 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:33:51.738 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:33:51.871 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:33:59.845 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_004_dashboardWidgetsDisplayed]
+2026-06-03 17:33:59.846 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra số lượng widget trên Dashboard
+2026-06-03 17:33:59.864 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_DASH_004 PASSED: Dashboard hiển thị 14 widget(s)
+2026-06-03 17:33:59.864 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Dash_004_dashboardWidgetsDisplayed] - Thời gian: 0s
+2026-06-03 17:34:00.140 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:34:00.140 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:34:00.142 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:34:00.967 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:34:00.967 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:34:03.110 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:34:04.114 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:34:04.583 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:34:04.688 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:34:04.810 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:34:13.185 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_004_searchEmployeeByName]
+2026-06-03 17:34:13.186 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến trang danh sách nhân viên
+2026-06-03 17:34:13.678 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 17:34:16.043 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:34:26.062 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Tìm kiếm nhân viên với từ khóa 'a'
+2026-06-03 17:34:26.133 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_001_viewEmployeeList]
+2026-06-03 17:34:26.135 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến module PIM - Danh sách nhân viên
+2026-06-03 17:34:26.200 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Tìm kiếm nhân viên: a
+2026-06-03 17:34:46.570 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Thực hiện tìm kiếm
+2026-06-03 17:34:46.572 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận có kết quả tìm kiếm
+2026-06-03 17:34:56.586 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_004 PASSED: Tìm kiếm trả về 0 kết quả
+2026-06-03 17:34:56.586 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_004_searchEmployeeByName] - Thời gian: 43s
+2026-06-03 17:34:56.862 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:34:56.862 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:34:56.863 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:34:57.353 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 17:34:57.624 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:34:57.624 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:35:07.402 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang danh sách nhân viên hiển thị
+2026-06-03 17:35:07.406 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra số lượng nhân viên > 0
+2026-06-03 17:35:17.469 [main] ERROR com.orangehrm.listeners.TestListener - ❌ FAILED: [tc_Emp_001_viewEmployeeList]
+2026-06-03 17:35:17.469 [main] ERROR com.orangehrm.listeners.TestListener -    Lý do: Danh sách nhân viên trống - phải có ít nhất 1 nhân viên expected [true] but found [false]
+2026-06-03 17:35:17.819 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:35:17.819 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:35:17.821 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:35:18.632 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:35:18.633 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:35:20.207 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:35:20.207 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:35:23.117 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:35:24.222 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:35:24.380 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:35:24.542 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:35:24.561 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:35:24.725 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:35:40.601 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:35:40.648 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:35:50.691 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_002_addNewEmployeeSuccessfully]
+2026-06-03 17:35:50.693 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến PIM
+2026-06-03 17:35:50.696 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_005_searchNonExistentEmployee]
+2026-06-03 17:35:50.697 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến danh sách nhân viên
+2026-06-03 17:35:51.302 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 17:35:51.458 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 17:36:02.906 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Click nút Add Employee
+2026-06-03 17:36:03.131 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Tìm kiếm với tên ngẫu nhiên không tồn tại
+2026-06-03 17:36:03.313 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Tìm kiếm nhân viên: XYZ_NONEXISTENT_1780482963131
+2026-06-03 17:36:13.733 [main] INFO  com.orangehrm.pages.BasePage - ➕ Click thêm nhân viên mới
+2026-06-03 17:36:14.645 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Thực hiện tìm kiếm
+2026-06-03 17:36:14.645 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận không có kết quả hoặc hiển thị 'No Records Found'
+2026-06-03 17:36:23.790 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận form thêm nhân viên hiển thị
+2026-06-03 17:36:23.796 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điền thông tin nhân viên: Test AutoUser3796
+2026-06-03 17:36:24.060 [main] INFO  com.orangehrm.pages.BasePage - 📝 Điền thông tin: Test  AutoUser3796
+2026-06-03 17:36:24.060 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Lưu thông tin nhân viên
+2026-06-03 17:36:24.708 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_005 PASSED: Hiển thị đúng khi không tìm thấy nhân viên
+2026-06-03 17:36:24.709 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_005_searchNonExistentEmployee] - Thời gian: 34s
+2026-06-03 17:36:24.998 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:36:24.999 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:36:25.001 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:36:25.869 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:36:25.870 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:36:29.581 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:36:29.581 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:36:30.865 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:36:31.042 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:36:34.252 [main] INFO  com.orangehrm.pages.BasePage - 💾 Đã lưu thông tin nhân viên
+2026-06-03 17:36:34.252 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận lưu thành công
+2026-06-03 17:36:47.764 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:37:01.568 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_006_resetSearchFilter]
+2026-06-03 17:37:01.568 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến danh sách nhân viên
+2026-06-03 17:37:03.652 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 17:37:04.863 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_002 PASSED: Thêm nhân viên Test AutoUser3796 thành công
+2026-06-03 17:37:04.865 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_002_addNewEmployeeSuccessfully] - Thời gian: 74s
+2026-06-03 17:37:05.200 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:37:05.200 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:37:05.202 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:37:06.069 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:37:06.069 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:37:08.766 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Lấy số lượng nhân viên ban đầu
+2026-06-03 17:37:08.782 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Tìm kiếm để lọc danh sách
+2026-06-03 17:37:08.936 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Tìm kiếm nhân viên: admin
+2026-06-03 17:37:10.356 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:37:11.542 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:37:11.670 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:37:11.799 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:37:20.710 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Thực hiện tìm kiếm
+2026-06-03 17:37:20.719 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Click Reset để xóa bộ lọc
+2026-06-03 17:37:25.933 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:37:31.931 [main] INFO  com.orangehrm.pages.BasePage - 🔄 Reset bộ lọc
+2026-06-03 17:37:31.944 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận danh sách trở về trạng thái ban đầu
+2026-06-03 17:37:31.947 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_006 PASSED: Reset bộ lọc thành công (5 → 50 nhân viên)
+2026-06-03 17:37:31.949 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_006_resetSearchFilter] - Thời gian: 30s
+2026-06-03 17:37:32.226 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:37:32.226 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:37:32.228 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:37:33.085 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:37:33.086 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:37:36.002 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_003_addEmployeeWithEmptyLastName]
+2026-06-03 17:37:36.003 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến PIM và click Add Employee
+2026-06-03 17:37:36.974 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 17:37:37.208 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:37:37.208 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:37:37.923 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:37:38.034 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:37:51.521 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:38:01.495 [main] INFO  com.orangehrm.pages.BasePage - ➕ Click thêm nhân viên mới
+2026-06-03 17:38:01.615 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_007_verifyAutoGeneratedEmployeeId]
+2026-06-03 17:38:01.616 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến form thêm nhân viên
+2026-06-03 17:38:02.549 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 17:38:11.517 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Chỉ nhập First Name, bỏ trống Last Name
+2026-06-03 17:38:11.837 [main] INFO  com.orangehrm.pages.BasePage - 📝 Điền thông tin: TestOnly  
+2026-06-03 17:38:11.838 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Click Save với Last Name trống
+2026-06-03 17:38:22.053 [main] INFO  com.orangehrm.pages.BasePage - 💾 Đã lưu thông tin nhân viên
+2026-06-03 17:38:22.053 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận thông báo lỗi validation xuất hiện
+2026-06-03 17:38:22.070 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_003 PASSED: Validation hoạt động đúng khi thiếu Last Name
+2026-06-03 17:38:22.070 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_003_addEmployeeWithEmptyLastName] - Thời gian: 46s
+2026-06-03 17:38:22.364 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:38:22.364 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:38:22.366 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:38:24.038 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:38:24.040 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:38:25.183 [main] INFO  com.orangehrm.pages.BasePage - ➕ Click thêm nhân viên mới
+2026-06-03 17:38:28.743 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:38:29.207 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:38:29.359 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:38:29.489 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:38:35.210 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra Employee ID được tự động tạo
+2026-06-03 17:38:35.256 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_007 PASSED: Employee ID tự động được tạo: 0405
+2026-06-03 17:38:35.256 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_007_verifyAutoGeneratedEmployeeId] - Thời gian: 33s
+2026-06-03 17:38:35.551 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:38:35.551 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:38:35.553 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:38:36.312 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:38:36.312 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:38:40.911 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:38:40.912 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:38:41.215 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:38:42.214 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:38:42.334 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:38:51.307 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_004_searchEmployeeByName]
+2026-06-03 17:38:51.307 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến trang danh sách nhân viên
+2026-06-03 17:38:52.472 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:38:54.072 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 17:38:58.788 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Admin
+2026-06-03 17:39:12.004 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Tìm kiếm nhân viên với từ khóa 'a'
+2026-06-03 17:39:12.117 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Tìm kiếm nhân viên: a
+2026-06-03 17:39:13.357 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_001_accessAdminModule]
+2026-06-03 17:39:13.357 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận module Admin đã mở
+2026-06-03 17:39:13.363 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_ADMIN_001 PASSED: Module Admin truy cập thành công
+2026-06-03 17:39:13.365 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Admin_001_accessAdminModule] - Thời gian: 0s
+2026-06-03 17:39:13.710 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:39:13.712 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:39:13.712 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:39:14.559 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:39:14.560 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:39:18.923 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:39:18.924 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:39:20.111 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:39:20.247 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:39:26.155 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Thực hiện tìm kiếm
+2026-06-03 17:39:26.155 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận có kết quả tìm kiếm
+2026-06-03 17:39:26.186 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_004 PASSED: Tìm kiếm trả về 50 kết quả
+2026-06-03 17:39:26.187 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_004_searchEmployeeByName] - Thời gian: 34s
+2026-06-03 17:39:26.416 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:39:26.416 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:39:26.418 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:39:27.109 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:39:27.109 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:39:31.686 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:39:32.639 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:39:32.747 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:39:32.847 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:39:33.279 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:39:45.727 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Admin
+2026-06-03 17:39:49.386 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:39:59.468 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_005_searchNonExistentEmployee]
+2026-06-03 17:39:59.468 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến danh sách nhân viên
+2026-06-03 17:40:00.040 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_002_systemUsersListDisplayed]
+2026-06-03 17:40:00.043 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra danh sách người dùng
+2026-06-03 17:40:00.061 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận có ít nhất 1 người dùng (Admin)
+2026-06-03 17:40:00.061 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_ADMIN_002 PASSED: Danh sách hiển thị 24 người dùng
+2026-06-03 17:40:00.063 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Admin_002_systemUsersListDisplayed] - Thời gian: 0s
+2026-06-03 17:40:00.329 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:40:00.329 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:40:00.331 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:40:01.136 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 17:40:01.190 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:40:01.191 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:40:04.945 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:40:04.945 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:40:06.326 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:40:06.457 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:40:14.941 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Tìm kiếm với tên ngẫu nhiên không tồn tại
+2026-06-03 17:40:15.124 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Tìm kiếm nhân viên: XYZ_NONEXISTENT_1780483214941
+2026-06-03 17:40:18.939 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:40:25.922 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Thực hiện tìm kiếm
+2026-06-03 17:40:25.922 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận không có kết quả hoặc hiển thị 'No Records Found'
+2026-06-03 17:40:29.518 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Admin
+2026-06-03 17:40:35.957 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_005 PASSED: Hiển thị đúng khi không tìm thấy nhân viên
+2026-06-03 17:40:35.958 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_005_searchNonExistentEmployee] - Thời gian: 36s
+2026-06-03 17:40:36.282 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:40:36.282 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:40:36.283 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:40:37.145 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:40:37.147 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:40:40.683 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_003_searchUserByUsername]
+2026-06-03 17:40:40.683 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Tìm kiếm người dùng với username 'Admin'
+2026-06-03 17:40:41.306 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:40:41.763 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:40:41.864 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:40:41.977 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:40:53.407 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:40:53.605 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Tìm kiếm user: Admin
+2026-06-03 17:40:53.605 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận Admin xuất hiện trong kết quả
+2026-06-03 17:40:53.642 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_ADMIN_003 PASSED: Tìm thấy người dùng 'Admin'
+2026-06-03 17:40:53.642 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Admin_003_searchUserByUsername] - Thời gian: 12s
+2026-06-03 17:40:53.910 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:40:53.910 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:40:53.911 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:40:54.719 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:40:54.719 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:40:58.173 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:40:58.173 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:40:58.748 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:40:58.867 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:41:03.460 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_006_resetSearchFilter]
+2026-06-03 17:41:03.462 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến danh sách nhân viên
+2026-06-03 17:41:03.985 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 17:41:10.461 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:41:15.498 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Lấy số lượng nhân viên ban đầu
+2026-06-03 17:41:15.551 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Tìm kiếm để lọc danh sách
+2026-06-03 17:41:15.710 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Tìm kiếm nhân viên: admin
+2026-06-03 17:41:21.462 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Admin
+2026-06-03 17:41:27.556 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Thực hiện tìm kiếm
+2026-06-03 17:41:27.565 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Click Reset để xóa bộ lọc
+2026-06-03 17:41:32.434 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_004_searchNonExistentUser]
+2026-06-03 17:41:32.434 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Tìm kiếm username không tồn tại
+2026-06-03 17:41:39.390 [main] INFO  com.orangehrm.pages.BasePage - 🔄 Reset bộ lọc
+2026-06-03 17:41:39.404 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận danh sách trở về trạng thái ban đầu
+2026-06-03 17:41:39.406 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_006 PASSED: Reset bộ lọc thành công (7 → 50 nhân viên)
+2026-06-03 17:41:39.407 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_006_resetSearchFilter] - Thời gian: 35s
+2026-06-03 17:41:39.704 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:41:39.705 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:41:39.707 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:41:40.526 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:41:40.527 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:41:45.065 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:41:45.896 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Tìm kiếm user: NONEXISTENT_USER_XYZ_1780483292434
+2026-06-03 17:41:45.896 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận không có kết quả
+2026-06-03 17:41:46.237 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:41:46.413 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:41:46.583 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:41:59.521 [main] ERROR com.orangehrm.listeners.TestListener - ❌ FAILED: [tc_Admin_004_searchNonExistentUser]
+2026-06-03 17:41:59.521 [main] ERROR com.orangehrm.listeners.TestListener -    Lý do: Hệ thống hiển thị kết quả khi username không tồn tại expected [true] but found [false]
+2026-06-03 17:41:59.940 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:41:59.940 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:41:59.942 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:42:00.331 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:42:00.751 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:42:00.751 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:42:10.391 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_007_verifyAutoGeneratedEmployeeId]
+2026-06-03 17:42:10.392 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến form thêm nhân viên
+2026-06-03 17:42:11.444 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 17:42:14.509 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:42:14.509 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:42:16.716 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:42:16.858 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:42:32.166 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:42:34.830 [main] INFO  com.orangehrm.pages.BasePage - ➕ Click thêm nhân viên mới
+2026-06-03 17:42:42.843 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Admin
+2026-06-03 17:42:44.876 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra Employee ID được tự động tạo
+2026-06-03 17:42:44.927 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_007 PASSED: Employee ID tự động được tạo: 0414
+2026-06-03 17:42:44.927 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_007_verifyAutoGeneratedEmployeeId] - Thời gian: 34s
+2026-06-03 17:42:45.305 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:42:45.306 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:42:45.308 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:42:46.044 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:42:46.044 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:42:49.122 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:42:49.586 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:42:49.698 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:42:49.803 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:42:53.835 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_005_resetAdminSearchFilter]
+2026-06-03 17:42:53.835 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Tìm kiếm 'Admin' để lọc danh sách
+2026-06-03 17:43:01.362 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:43:06.662 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Tìm kiếm user: Admin
+2026-06-03 17:43:06.680 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Reset bộ lọc
+2026-06-03 17:43:12.010 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Admin
+2026-06-03 17:43:19.996 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận sau reset hiển thị nhiều hơn hoặc bằng khi đang lọc
+2026-06-03 17:43:19.996 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_ADMIN_005 PASSED: Reset bộ lọc thành công (30 → 30 users)
+2026-06-03 17:43:19.996 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Admin_005_resetAdminSearchFilter] - Thời gian: 26s
+2026-06-03 17:43:20.284 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:43:20.285 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:43:20.287 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:43:21.103 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:43:21.103 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:43:23.221 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_001_accessAdminModule]
+2026-06-03 17:43:23.222 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận module Admin đã mở
+2026-06-03 17:43:23.230 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_ADMIN_001 PASSED: Module Admin truy cập thành công
+2026-06-03 17:43:23.230 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Admin_001_accessAdminModule] - Thời gian: 0s
+2026-06-03 17:43:23.508 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:43:23.510 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:43:23.510 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:43:24.232 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:43:24.232 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:43:25.107 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:43:25.107 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:43:25.892 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:43:26.032 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:43:27.769 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:43:28.777 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:43:28.866 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:43:28.965 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:43:31.422 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:43:39.205 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:43:47.349 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Admin
+2026-06-03 17:43:49.844 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Leave
+2026-06-03 17:43:59.229 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_002_systemUsersListDisplayed]
+2026-06-03 17:43:59.230 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra danh sách người dùng
+2026-06-03 17:43:59.249 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận có ít nhất 1 người dùng (Admin)
+2026-06-03 17:43:59.250 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_ADMIN_002 PASSED: Danh sách hiển thị 31 người dùng
+2026-06-03 17:43:59.250 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Admin_002_systemUsersListDisplayed] - Thời gian: 0s
+2026-06-03 17:43:59.615 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:43:59.615 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:43:59.617 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:44:00.450 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:44:00.451 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:44:00.873 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_001_accessLeaveModule]
+2026-06-03 17:44:00.873 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang Leave List hiển thị
+2026-06-03 17:44:00.882 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LEAVE_001 PASSED: Truy cập module Leave thành công
+2026-06-03 17:44:00.883 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Leave_001_accessLeaveModule] - Thời gian: 0s
+2026-06-03 17:44:01.144 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:44:01.144 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:44:01.146 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:44:01.949 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:44:01.950 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:44:04.483 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:44:06.421 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:44:06.565 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:44:06.687 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:44:07.218 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:44:07.218 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:44:09.233 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:44:09.326 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:44:22.405 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:44:24.876 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:44:34.148 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Admin
+2026-06-03 17:44:36.208 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Leave
+2026-06-03 17:44:46.940 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_003_searchUserByUsername]
+2026-06-03 17:44:46.940 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Tìm kiếm người dùng với username 'Admin'
+2026-06-03 17:44:48.700 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_002_viewLeaveList]
+2026-06-03 17:44:48.701 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra danh sách nghỉ phép
+2026-06-03 17:44:58.751 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Ghi nhận số lượng yêu cầu nghỉ phép
+2026-06-03 17:44:58.751 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LEAVE_002 PASSED: Danh sách nghỉ phép hiển thị 0 yêu cầu
+2026-06-03 17:44:58.751 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Leave_002_viewLeaveList] - Thời gian: 10s
+2026-06-03 17:44:59.045 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:44:59.045 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:44:59.046 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:44:59.912 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:44:59.913 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:45:01.923 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Tìm kiếm user: Admin
+2026-06-03 17:45:01.923 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận Admin xuất hiện trong kết quả
+2026-06-03 17:45:01.993 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_ADMIN_003 PASSED: Tìm thấy người dùng 'Admin'
+2026-06-03 17:45:01.993 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Admin_003_searchUserByUsername] - Thời gian: 15s
+2026-06-03 17:45:02.256 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:45:02.256 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:45:02.257 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:45:02.935 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:45:02.935 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:45:05.418 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:45:05.418 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:45:07.117 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:45:07.560 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:45:07.687 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:45:09.591 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:45:09.685 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:45:09.789 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:45:19.575 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:45:27.488 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:45:39.834 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Leave
+2026-06-03 17:45:40.110 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Admin
+2026-06-03 17:45:53.425 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_003_filterLeaveByDateRange]
+2026-06-03 17:45:53.425 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Thiết lập ngày bắt đầu lọc
+2026-06-03 17:45:55.717 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_004_searchNonExistentUser]
+2026-06-03 17:45:55.717 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Tìm kiếm username không tồn tại
+2026-06-03 17:46:03.457 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Thiết lập ngày kết thúc lọc
+2026-06-03 17:46:10.222 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Tìm kiếm user: NONEXISTENT_USER_XYZ_1780483555719
+2026-06-03 17:46:10.223 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận không có kết quả
+2026-06-03 17:46:13.513 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Click tìm kiếm
+2026-06-03 17:46:23.883 [main] ERROR com.orangehrm.listeners.TestListener - ❌ FAILED: [tc_Admin_004_searchNonExistentUser]
+2026-06-03 17:46:23.883 [main] ERROR com.orangehrm.listeners.TestListener -    Lý do: Hệ thống hiển thị kết quả khi username không tồn tại expected [true] but found [false]
+2026-06-03 17:46:24.374 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:46:24.374 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:46:24.375 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:46:25.303 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:46:25.303 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:46:26.400 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận tìm kiếm không gây lỗi
+2026-06-03 17:46:26.405 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LEAVE_003 PASSED: Lọc theo ngày hoạt động bình thường
+2026-06-03 17:46:26.406 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Leave_003_filterLeaveByDateRange] - Thời gian: 32s
+2026-06-03 17:46:26.690 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:46:26.690 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:46:26.691 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:46:27.312 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:46:27.312 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:46:34.523 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:46:37.093 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:46:37.093 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:46:38.405 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:46:38.564 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:46:38.706 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:46:45.246 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:46:45.345 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:46:57.406 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:47:04.977 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:47:15.334 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Admin
+2026-06-03 17:47:20.204 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Leave
+2026-06-03 17:47:32.917 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_005_resetAdminSearchFilter]
+2026-06-03 17:47:32.917 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Tìm kiếm 'Admin' để lọc danh sách
+2026-06-03 17:47:37.345 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_004_resetLeaveFilter]
+2026-06-03 17:47:37.345 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Lọc theo ngày để thay đổi danh sách
+2026-06-03 17:47:49.531 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Tìm kiếm user: Admin
+2026-06-03 17:47:49.550 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Reset bộ lọc
+2026-06-03 17:48:00.743 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Reset bộ lọc
+2026-06-03 17:48:04.920 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận sau reset hiển thị nhiều hơn hoặc bằng khi đang lọc
+2026-06-03 17:48:04.921 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_ADMIN_005 PASSED: Reset bộ lọc thành công (34 → 34 users)
+2026-06-03 17:48:04.922 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Admin_005_resetAdminSearchFilter] - Thời gian: 32s
+2026-06-03 17:48:05.210 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:48:05.210 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:48:05.212 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:48:06.050 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:48:06.050 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:48:12.422 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:48:14.159 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang Leave vẫn hiển thị sau reset
+2026-06-03 17:48:14.166 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LEAVE_004 PASSED: Reset bộ lọc Leave thành công
+2026-06-03 17:48:14.166 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Leave_004_resetLeaveFilter] - Thời gian: 36s
+2026-06-03 17:48:14.463 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:48:14.465 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:48:14.483 [main] INFO  com.orangehrm.listeners.TestListener - ╔════════════════════════════════════════╗
+2026-06-03 17:48:14.483 [main] INFO  com.orangehrm.listeners.TestListener - ║           📊 KẾT QUẢ TEST SUITE        ║
+2026-06-03 17:48:14.483 [main] INFO  com.orangehrm.listeners.TestListener - ╠════════════════════════════════════════╣
+2026-06-03 17:48:14.483 [main] INFO  com.orangehrm.listeners.TestListener - ║  Tổng số test  : {:3d}                   ║
+2026-06-03 17:48:14.483 [main] INFO  com.orangehrm.listeners.TestListener - ║  ✅ Passed      : {:3d}                   ║
+2026-06-03 17:48:14.483 [main] INFO  com.orangehrm.listeners.TestListener - ║  ❌ Failed      : {:3d}                   ║
+2026-06-03 17:48:14.483 [main] INFO  com.orangehrm.listeners.TestListener - ║  ⏭️ Skipped     : {:3d}                   ║
+2026-06-03 17:48:14.483 [main] INFO  com.orangehrm.listeners.TestListener - ╚════════════════════════════════════════╝
+2026-06-03 17:48:14.541 [main] INFO  com.orangehrm.utils.ExtentReportManager - 📊 Đã xuất báo cáo HTML
+2026-06-03 17:48:20.350 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:48:20.487 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:48:20.603 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:48:37.572 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:48:51.846 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Leave
+2026-06-03 17:49:11.703 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_001_accessLeaveModule]
+2026-06-03 17:49:11.703 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang Leave List hiển thị
+2026-06-03 17:49:11.710 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LEAVE_001 PASSED: Truy cập module Leave thành công
+2026-06-03 17:49:11.710 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Leave_001_accessLeaveModule] - Thời gian: 0s
+2026-06-03 17:49:11.980 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:49:11.981 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:49:11.982 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:49:12.873 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:49:12.875 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:49:18.452 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:49:20.122 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:49:20.275 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:49:20.397 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:49:41.860 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:50:22.567 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_002_viewLeaveList]
+2026-06-03 17:50:22.567 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Leave_002_viewLeaveList]
+2026-06-03 17:50:22.851 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:50:22.851 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:50:22.852 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:50:23.612 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:50:23.612 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:50:42.890 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:50:45.407 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:50:45.600 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:50:45.762 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:51:05.293 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:51:19.326 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Leave
+2026-06-03 17:51:35.775 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_003_filterLeaveByDateRange]
+2026-06-03 17:51:35.775 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Leave_003_filterLeaveByDateRange]
+2026-06-03 17:51:36.005 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:51:36.007 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:51:36.007 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 17:51:36.713 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 17:51:36.713 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 17:51:52.916 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 17:51:55.317 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 17:51:55.398 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 17:51:55.495 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 17:52:11.153 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 17:52:21.751 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Leave
+2026-06-03 17:52:33.321 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_004_resetLeaveFilter]
+2026-06-03 17:52:33.321 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Leave_004_resetLeaveFilter]
+2026-06-03 17:52:33.586 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 17:52:33.586 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 17:52:33.613 [main] INFO  com.orangehrm.listeners.TestListener - ╔════════════════════════════════════════╗
+2026-06-03 17:52:33.613 [main] INFO  com.orangehrm.listeners.TestListener - ║           📊 KẾT QUẢ TEST SUITE        ║
+2026-06-03 17:52:33.613 [main] INFO  com.orangehrm.listeners.TestListener - ╠════════════════════════════════════════╣
+2026-06-03 17:52:33.613 [main] INFO  com.orangehrm.listeners.TestListener - ║  Tổng số test  : {:3d}                   ║
+2026-06-03 17:52:33.613 [main] INFO  com.orangehrm.listeners.TestListener - ║  ✅ Passed      : {:3d}                   ║
+2026-06-03 17:52:33.613 [main] INFO  com.orangehrm.listeners.TestListener - ║  ❌ Failed      : {:3d}                   ║
+2026-06-03 17:52:33.613 [main] INFO  com.orangehrm.listeners.TestListener - ║  ⏭️ Skipped     : {:3d}                   ║
+2026-06-03 17:52:33.613 [main] INFO  com.orangehrm.listeners.TestListener - ╚════════════════════════════════════════╝
+2026-06-03 17:52:33.670 [main] INFO  com.orangehrm.utils.ExtentReportManager - 📊 Đã xuất báo cáo HTML
