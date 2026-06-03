@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2987.51" tests="35" errors="0" skipped="3" failures="6">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\ThinkPad1\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ThinkPad1\Downloads\orangehrm-automation\orangehrm-automation\target\test-classes;C:\Users\ThinkPad1\Downloads\orangehrm-automation\orangehrm-automation\target\classes;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\ThinkPad1\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\ThinkPad1\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ThinkPad1\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ThinkPad1\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\ThinkPad1\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\ThinkPad1\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\ThinkPad1\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\ThinkPad1\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\ThinkPad1\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\ThinkPad1\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\ThinkPad1\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\ThinkPad1\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\ThinkPad1\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\ThinkPad1\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\ThinkPad1\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\ThinkPad1\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\ThinkPad1\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\ThinkPad1\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ThinkPad1\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\ThinkPad1\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\ThinkPad1\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\ThinkPad1\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\ThinkPad1\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\ThinkPad1\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ThinkPad1\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ThinkPad1\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\ThinkPad1\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\ThinkPad1\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\ThinkPad1\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\ThinkPad1\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;C:\Users\ThinkPad1\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\ThinkPad1\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ThinkPad1\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\ThinkPad1\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Saigon"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\ThinkPad1\AppData\Local\Temp\surefire3798391128932822603\surefirebooter-20260603091206175_3.jar C:\Users\ThinkPad1\AppData\Local\Temp\surefire3798391128932822603 2026-06-03T09-12-06_039-jvmRun1 surefire-20260603091206175_1tmp surefire_0-20260603091206175_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ThinkPad1\Downloads\orangehrm-automation\orangehrm-automation\target\test-classes;C:\Users\ThinkPad1\Downloads\orangehrm-automation\orangehrm-automation\target\classes;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\ThinkPad1\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\ThinkPad1\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ThinkPad1\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ThinkPad1\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\ThinkPad1\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\ThinkPad1\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\ThinkPad1\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\ThinkPad1\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\ThinkPad1\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\ThinkPad1\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\ThinkPad1\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\ThinkPad1\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\ThinkPad1\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\ThinkPad1\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\ThinkPad1\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\ThinkPad1\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\ThinkPad1\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\ThinkPad1\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\ThinkPad1\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\ThinkPad1\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ThinkPad1\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\ThinkPad1\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\ThinkPad1\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\ThinkPad1\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\ThinkPad1\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\ThinkPad1\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ThinkPad1\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ThinkPad1\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\ThinkPad1\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\ThinkPad1\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\ThinkPad1\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\ThinkPad1\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;C:\Users\ThinkPad1\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\ThinkPad1\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ThinkPad1\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\ThinkPad1\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\ThinkPad1\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ThinkPad1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ThinkPad1\Downloads\orangehrm-automation\orangehrm-automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ThinkPad1\AppData\Local\Temp\surefire3798391128932822603\surefirebooter-20260603091206175_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.11+9-LTS-211"/>
+    <property name="user.name" value="ThinkPad1"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ThinkPad1\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\THINKP~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.11"/>
+    <property name="user.dir" value="C:\Users\ThinkPad1\Downloads\orangehrm-automation\orangehrm-automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\ThinkPad1\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\ThinkPad1\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\apache-maven-3.9.16-bin\apache-maven-3.9.16\bin;C:\Users\ThinkPad1\.local\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ThinkPad1\AppData\Local\Microsoft\WindowsApps;C:\Users\ThinkPad1\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ThinkPad1\AppData\Roaming\npm;c:\Users\ThinkPad1\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\scripts\noConfigScripts;c:\Users\ThinkPad1\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.11+9-LTS-211"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="tc_Login_001_loginSuccessWithValidCredentials" classname="com.orangehrm.tests.LoginTest" time="28.235">
+    <system-out><![CDATA[...
+... TestNG 7.9.0 by Cédric Beust (cedric@beust.com)
+...
+
+2026-06-03 09:12:07.678 [main] INFO  com.orangehrm.listeners.TestListener - ╔════════════════════════════════════════╗
+2026-06-03 09:12:07.709 [main] INFO  com.orangehrm.listeners.TestListener - ║  🚀 BẮT ĐẦU TEST SUITE: Smoke Tests - Kiểm thử nhanh  ║
+2026-06-03 09:12:07.710 [main] INFO  com.orangehrm.listeners.TestListener - ╚════════════════════════════════════════╝
+2026-06-03 09:12:07.777 [main] INFO  com.orangehrm.utils.ConfigReader - ✅ Đã load cấu hình từ: src/test/resources/config.properties
+2026-06-03 09:12:07.778 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:12:11.173 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:12:11.200 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:12:11.202 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_001_loginSuccessWithValidCredentials]
+2026-06-03 09:12:11.490 [main] INFO  com.orangehrm.utils.ExtentReportManager - 📊 Đã khởi tạo ExtentReports: reports/OrangeHRM_TestReport_20260603_091211.html
+2026-06-03 09:12:11.505 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:12:17.158 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:12:17.159 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:12:17.159 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang đăng nhập hiển thị
+2026-06-03 09:12:17.900 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Nhập username và password từ config (không hardcode)
+2026-06-03 09:12:18.095 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:12:18.251 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:12:18.252 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Submit đăng nhập, kỳ vọng thành công
+2026-06-03 09:12:29.643 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:12:39.670 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận Dashboard hiển thị
+2026-06-03 09:12:39.728 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_001 PASSED: Đăng nhập Admin thành công
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jun 03, 2026 9:12:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:12:11 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Login_001_loginSuccessWithValidCredentials" classname="com.orangehrm.tests.LoginTest" time="42.174">
+    <system-out><![CDATA[2026-06-03 09:18:13.808 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Leave_001_accessLeaveModule] - Thời gian: 0s
+2026-06-03 09:18:14.206 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:18:14.207 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:18:14.243 [main] INFO  com.orangehrm.listeners.TestListener - ╔════════════════════════════════════════╗
+2026-06-03 09:18:14.243 [main] INFO  com.orangehrm.listeners.TestListener - ║           📊 KẾT QUẢ TEST SUITE        ║
+2026-06-03 09:18:14.244 [main] INFO  com.orangehrm.listeners.TestListener - ╠════════════════════════════════════════╣
+2026-06-03 09:18:14.244 [main] INFO  com.orangehrm.listeners.TestListener - ║  Tổng số test  : {:3d}                   ║
+2026-06-03 09:18:14.244 [main] INFO  com.orangehrm.listeners.TestListener - ║  ✅ Passed      : {:3d}                   ║
+2026-06-03 09:18:14.244 [main] INFO  com.orangehrm.listeners.TestListener - ║  ❌ Failed      : {:3d}                   ║
+2026-06-03 09:18:14.244 [main] INFO  com.orangehrm.listeners.TestListener - ║  ⏭️ Skipped     : {:3d}                   ║
+2026-06-03 09:18:14.244 [main] INFO  com.orangehrm.listeners.TestListener - ╚════════════════════════════════════════╝
+2026-06-03 09:18:14.670 [main] INFO  com.orangehrm.utils.ExtentReportManager - 📊 Đã xuất báo cáo HTML
+2026-06-03 09:18:14.674 [main] INFO  com.orangehrm.listeners.TestListener - ╔════════════════════════════════════════╗
+2026-06-03 09:18:14.674 [main] INFO  com.orangehrm.listeners.TestListener - ║  🚀 BẮT ĐẦU TEST SUITE: Regression Tests - Kiểm thử hồi quy  ║
+2026-06-03 09:18:14.674 [main] INFO  com.orangehrm.listeners.TestListener - ╚════════════════════════════════════════╝
+2026-06-03 09:18:14.677 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:18:15.632 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:18:15.633 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:18:15.634 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_001_loginSuccessWithValidCredentials]
+2026-06-03 09:18:15.635 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:18:35.053 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:18:35.054 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:18:35.054 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang đăng nhập hiển thị
+2026-06-03 09:18:35.751 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Nhập username và password từ config (không hardcode)
+2026-06-03 09:18:35.908 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:18:36.085 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:18:36.085 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Submit đăng nhập, kỳ vọng thành công
+2026-06-03 09:18:47.752 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:18:57.771 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận Dashboard hiển thị
+2026-06-03 09:18:57.807 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_001 PASSED: Đăng nhập Admin thành công
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:18:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:18:15 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Login_005_verifyLoginPageUIElements" classname="com.orangehrm.tests.LoginTest" time="18.199">
+    <system-out><![CDATA[2026-06-03 09:12:39.732 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_001_loginSuccessWithValidCredentials] - Thời gian: 28s
+2026-06-03 09:12:40.225 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:12:40.226 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:12:40.230 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:12:41.047 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:12:41.048 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:12:41.049 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_005_verifyLoginPageUIElements]
+2026-06-03 09:12:41.051 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Mở trang đăng nhập
+2026-06-03 09:12:58.235 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:12:58.236 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:12:58.236 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận form đăng nhập hiển thị đầy đủ (username + password + button)
+2026-06-03 09:12:59.178 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận tiêu đề trang login
+2026-06-03 09:12:59.250 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_005 PASSED: Trang đăng nhập hiển thị đầy đủ các thành phần UI, tiêu đề: Login
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:12:41 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:12:41 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Login_007_logoutSuccessfully" classname="com.orangehrm.tests.LoginTest" time="43.184">
+    <system-out><![CDATA[2026-06-03 09:12:59.251 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_005_verifyLoginPageUIElements] - Thời gian: 18s
+2026-06-03 09:12:59.545 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:12:59.546 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:12:59.548 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:13:00.403 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:13:00.403 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:13:00.404 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_007_logoutSuccessfully]
+2026-06-03 09:13:00.405 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Đăng nhập với tài khoản Admin từ config
+2026-06-03 09:13:09.619 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:13:09.620 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:13:10.429 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:13:10.589 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:13:22.174 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:13:32.220 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận đang ở Dashboard
+2026-06-03 09:13:32.282 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Thực hiện đăng xuất
+2026-06-03 09:13:43.543 [main] INFO  com.orangehrm.pages.BasePage - 🚪 Đã đăng xuất
+2026-06-03 09:13:43.544 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận đã quay về trang đăng nhập
+2026-06-03 09:13:43.589 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_007 PASSED: Đăng xuất thành công
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:13:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:13:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Login_007_logoutSuccessfully" classname="com.orangehrm.tests.LoginTest" time="0.0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;THINKPAD&apos;, ip: &apos;172.27.224.1&apos;"/>
+    <system-out><![CDATA[2026-06-03 09:43:51.872 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Login_006_loginUsernameIsCaseInsensitive]
+2026-06-03 09:43:51.885 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:43:51.896 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:43:53.128 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:43:53.129 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:43:53.130 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_007_logoutSuccessfully]
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:43:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:43:53 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Login_002_loginFailWithWrongPassword" classname="com.orangehrm.tests.LoginTest" time="28.207">
+    <system-out><![CDATA[2026-06-03 09:18:57.809 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_001_loginSuccessWithValidCredentials] - Thời gian: 42s
+2026-06-03 09:18:58.188 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:18:58.189 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:18:58.191 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:18:59.153 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:18:59.154 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:18:59.155 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_002_loginFailWithWrongPassword]
+2026-06-03 09:18:59.156 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Đăng nhập với đúng username nhưng sai password
+2026-06-03 09:19:20.126 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:19:20.127 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:19:21.577 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:19:21.776 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:19:27.267 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: fail)
+2026-06-03 09:19:27.267 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận thông báo lỗi xuất hiện
+2026-06-03 09:19:27.296 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra nội dung thông báo lỗi
+2026-06-03 09:19:27.365 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LOGIN_002 PASSED: Hệ thống hiển thị lỗi khi mật khẩu sai
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:18:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:18:59 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Login_003_loginFailWithInvalidUsername" classname="com.orangehrm.tests.LoginTest" time="17.457">
+    <failure message="invalid session id: session deleted as the browser has closed the connection&#10;from disconnected: Unable to receive message from renderer&#10;  (Session info: chrome=148.0.7778.217)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [5f6893f551aae2ebd361f0bd2fb7601d, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\THINKP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49682}, goog:processID: 19632, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49682/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5f6893f551aae2ebd361f0bd2fb7601d" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[org.openqa.selenium.NoSuchSessionException: 
+invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=148.0.7778.217)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f6893f551aae2ebd361f0bd2fb7601d, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\THINKP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49682}, goog:processID: 19632, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49682/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f6893f551aae2ebd361f0bd2fb7601d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at com.orangehrm.pages.BasePage.navigateTo(BasePage.java:125)
+	at com.orangehrm.pages.LoginPage.openLoginPage(LoginPage.java:41)
+	at com.orangehrm.pages.LoginPage.loginWithInvalidCredentials(LoginPage.java:99)
+	at com.orangehrm.tests.LoginTest.tc_Login_003_loginFailWithInvalidUsername(LoginTest.java:80)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2026-06-03 09:19:27.365 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_002_loginFailWithWrongPassword] - Thời gian: 28s
+2026-06-03 09:19:27.605 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:19:27.605 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:19:27.606 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:19:28.411 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:19:28.412 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:19:28.412 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_003_loginFailWithInvalidUsername]
+2026-06-03 09:19:28.413 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Đăng nhập với username không tồn tại trong hệ thống
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:19:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:19:28 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Login_004_loginWithEmptyCredentials" classname="com.orangehrm.tests.LoginTest" time="1181.719">
+    <failure message="java.net.http.HttpTimeoutException: request timed out&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [a5b948a96d2cd17f709122e76f5a20d9, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\THINKP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64084}, goog:processID: 32708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64084/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a5b948a96d2cd17f709122e76f5a20d9" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a5b948a96d2cd17f709122e76f5a20d9, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\THINKP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64084}, goog:processID: 32708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64084/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5b948a96d2cd17f709122e76f5a20d9
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:393)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:359)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at com.orangehrm.pages.BasePage.navigateTo(BasePage.java:125)
+	at com.orangehrm.pages.LoginPage.openLoginPage(LoginPage.java:41)
+	at com.orangehrm.tests.LoginTest.tc_Login_004_loginWithEmptyCredentials(LoginTest.java:101)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.net.http.HttpTimeoutException: request timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:63)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1788)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1345)
+]]></failure>
+    <system-out><![CDATA[2026-06-03 09:19:45.868 [main] ERROR com.orangehrm.listeners.TestListener - ❌ FAILED: [tc_Login_003_loginFailWithInvalidUsername]
+2026-06-03 09:19:45.868 [main] ERROR com.orangehrm.listeners.TestListener -    Lý do: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=148.0.7778.217)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f6893f551aae2ebd361f0bd2fb7601d, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\THINKP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49682}, goog:processID: 19632, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49682/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f6893f551aae2ebd361f0bd2fb7601d
+2026-06-03 09:19:45.949 [main] ERROR com.orangehrm.utils.ScreenshotUtils - ❌ Không thể chụp screenshot: invalid session id
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f6893f551aae2ebd361f0bd2fb7601d, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\THINKP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49682}, goog:processID: 19632, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49682/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f6893f551aae2ebd361f0bd2fb7601d
+2026-06-03 09:19:45.982 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:19:45.983 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:19:45.986 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:19:46.961 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:19:46.962 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:19:46.962 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_004_loginWithEmptyCredentials]
+2026-06-03 09:19:46.962 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Mở trang đăng nhập
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:19:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:19:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.orangehrm.tests.LoginTest" time="1444.897">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;THINKPAD&apos;, ip: &apos;172.27.224.1&apos;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'THINKPAD', ip: '172.27.224.1'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:537)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:233)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:162)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at com.orangehrm.utils.DriverManager.initChromeDriver(DriverManager.java:69)
+	at com.orangehrm.utils.DriverManager.initDriver(DriverManager.java:38)
+	at com.orangehrm.tests.BaseTest.setUp(BaseTest.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.TimeoutException: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:393)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:359)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:95)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	... 43 more
+Caused by: java.net.http.HttpTimeoutException: request timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:63)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1788)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1345)
+]]></failure>
+    <system-out><![CDATA[2026-06-03 09:39:28.683 [main] ERROR com.orangehrm.listeners.TestListener - ❌ FAILED: [tc_Login_004_loginWithEmptyCredentials]
+2026-06-03 09:39:28.684 [main] ERROR com.orangehrm.listeners.TestListener -    Lý do: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a5b948a96d2cd17f709122e76f5a20d9, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\THINKP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64084}, goog:processID: 32708, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64084/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5b948a96d2cd17f709122e76f5a20d9
+2026-06-03 09:39:32.393 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:39:32.393 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:39:32.395 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+]]></system-out>
+  </testcase>
+  <testcase name="tc_Login_006_loginUsernameIsCaseInsensitive" classname="com.orangehrm.tests.LoginTest" time="0.0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;THINKPAD&apos;, ip: &apos;172.27.224.1&apos;"/>
+    <system-out><![CDATA[2026-06-03 09:43:51.869 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_006_loginUsernameIsCaseInsensitive]
+]]></system-out>
+  </testcase>
+  <testcase name="tc_Login_008_accessDashboardWithoutLogin" classname="com.orangehrm.tests.LoginTest" time="0.0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;THINKPAD&apos;, ip: &apos;172.27.224.1&apos;"/>
+    <system-out><![CDATA[2026-06-03 09:43:53.131 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Login_007_logoutSuccessfully]
+2026-06-03 09:43:53.362 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:43:53.362 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:43:53.364 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:43:54.233 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:43:54.233 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:43:54.234 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Login_008_accessDashboardWithoutLogin]
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:43:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:43:54 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Dash_001_dashboardDisplayedAfterLogin" classname="com.orangehrm.tests.DashboardTest" time="0.009">
+    <system-out><![CDATA[2026-06-03 09:13:43.590 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Login_007_logoutSuccessfully] - Thời gian: 43s
+2026-06-03 09:13:43.911 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:13:43.912 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:13:43.915 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:13:44.804 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:13:44.805 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:13:54.950 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:13:54.950 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:13:55.984 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:13:56.155 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:14:07.783 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:14:17.832 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_001_dashboardDisplayedAfterLogin]
+2026-06-03 09:14:17.833 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận URL chứa 'dashboard'
+2026-06-03 09:14:17.840 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_DASH_001 PASSED: Dashboard hiển thị đúng
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:13:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:13:44 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Dash_002_adminUsernameDisplayed" classname="com.orangehrm.tests.DashboardTest" time="0.054">
+    <system-out><![CDATA[2026-06-03 09:14:17.841 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Dash_001_dashboardDisplayedAfterLogin] - Thời gian: 0s
+2026-06-03 09:14:18.149 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:14:18.150 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:14:18.152 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:14:19.011 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:14:19.013 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:14:22.708 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:14:22.709 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:14:23.388 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:14:23.550 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:14:35.152 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:14:45.214 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_002_adminUsernameDisplayed]
+2026-06-03 09:14:45.215 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Lấy tên người dùng hiển thị trên thanh menu
+2026-06-03 09:14:45.267 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận tên người dùng không rỗng
+2026-06-03 09:14:45.268 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_DASH_002 PASSED: Tên người dùng hiển thị: manda user
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:14:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:14:18 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Dash_003_navigationMenuDisplayed" classname="com.orangehrm.tests.DashboardTest" time="0.175">
+    <system-out><![CDATA[2026-06-03 09:14:45.269 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Dash_002_adminUsernameDisplayed] - Thời gian: 0s
+2026-06-03 09:14:45.606 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:14:45.606 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:14:45.608 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:14:46.463 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:14:46.464 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:15:14.412 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:15:14.413 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:15:19.204 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:15:19.367 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:15:39.321 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:15:49.378 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_003_navigationMenuDisplayed]
+2026-06-03 09:15:49.379 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu Admin hiển thị
+2026-06-03 09:15:49.414 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu PIM hiển thị
+2026-06-03 09:15:49.450 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu Leave hiển thị
+2026-06-03 09:15:49.497 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu Time hiển thị
+2026-06-03 09:15:49.553 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_DASH_003 PASSED: Tất cả menu chính hiển thị đầy đủ
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:14:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:14:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Dash_003_navigationMenuDisplayed" classname="com.orangehrm.tests.DashboardTest" time="0.172">
+    <system-out><![CDATA[2026-06-03 09:43:54.235 [main] WARN  com.orangehrm.listeners.TestListener - ⏭️ SKIPPED: [tc_Login_008_accessDashboardWithoutLogin]
+2026-06-03 09:43:54.369 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:43:54.369 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:43:54.370 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:43:55.126 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:43:55.127 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:44:09.245 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:44:09.246 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:44:10.222 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:44:10.376 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:44:21.987 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:44:32.043 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_003_navigationMenuDisplayed]
+2026-06-03 09:44:32.044 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu Admin hiển thị
+2026-06-03 09:44:32.084 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu PIM hiển thị
+2026-06-03 09:44:32.120 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu Leave hiển thị
+2026-06-03 09:44:32.163 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra menu Time hiển thị
+2026-06-03 09:44:32.215 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_DASH_003 PASSED: Tất cả menu chính hiển thị đầy đủ
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:43:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:43:55 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Dash_004_dashboardWidgetsDisplayed" classname="com.orangehrm.tests.DashboardTest" time="0.021">
+    <system-out><![CDATA[2026-06-03 09:44:32.216 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Dash_003_navigationMenuDisplayed] - Thời gian: 0s
+2026-06-03 09:44:32.517 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:44:32.518 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:44:32.519 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:44:33.387 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:44:33.388 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:44:39.847 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:44:39.847 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:44:40.461 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:44:40.607 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:44:51.845 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:45:01.897 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Dash_004_dashboardWidgetsDisplayed]
+2026-06-03 09:45:01.898 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra số lượng widget trên Dashboard
+2026-06-03 09:45:01.917 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_DASH_004 PASSED: Dashboard hiển thị 14 widget(s)
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:44:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:44:33 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Emp_001_viewEmployeeList" classname="com.orangehrm.tests.EmployeeTest" time="12.076">
+    <system-out><![CDATA[2026-06-03 09:15:49.554 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Dash_003_navigationMenuDisplayed] - Thời gian: 0s
+2026-06-03 09:15:49.886 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:15:49.886 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:15:49.888 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:15:50.703 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:15:50.703 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:16:00.971 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:16:00.972 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:16:01.749 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:16:01.902 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:16:13.634 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:16:23.687 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_001_viewEmployeeList]
+2026-06-03 09:16:23.689 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến module PIM - Danh sách nhân viên
+2026-06-03 09:16:24.180 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 09:16:35.741 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang danh sách nhân viên hiển thị
+2026-06-03 09:16:35.747 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra số lượng nhân viên > 0
+2026-06-03 09:16:35.764 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_001 PASSED: Danh sách hiển thị 50 nhân viên
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:15:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:15:50 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Emp_001_viewEmployeeList" classname="com.orangehrm.tests.EmployeeTest" time="25.631">
+    <system-out><![CDATA[2026-06-03 09:45:01.918 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Dash_004_dashboardWidgetsDisplayed] - Thời gian: 0s
+2026-06-03 09:45:02.328 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:45:02.329 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:45:02.331 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:45:03.219 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:45:03.219 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:45:10.178 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:45:10.178 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:45:11.073 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:45:11.251 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:45:22.773 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:45:32.866 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_001_viewEmployeeList]
+2026-06-03 09:45:32.867 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến module PIM - Danh sách nhân viên
+2026-06-03 09:45:33.820 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 09:45:58.472 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang danh sách nhân viên hiển thị
+2026-06-03 09:45:58.477 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra số lượng nhân viên > 0
+2026-06-03 09:45:58.496 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_001 PASSED: Danh sách hiển thị 50 nhân viên
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:45:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:45:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Emp_002_addNewEmployeeSuccessfully" classname="com.orangehrm.tests.EmployeeTest" time="75.867">
+    <system-out><![CDATA[2026-06-03 09:45:58.497 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_001_viewEmployeeList] - Thời gian: 25s
+2026-06-03 09:45:58.931 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:45:58.932 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:45:58.933 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:45:59.834 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:45:59.835 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:46:15.005 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:46:15.006 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:46:16.055 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:46:16.214 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:46:28.979 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:46:39.044 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_002_addNewEmployeeSuccessfully]
+2026-06-03 09:46:39.045 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến PIM
+2026-06-03 09:46:40.171 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 09:46:52.897 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Click nút Add Employee
+2026-06-03 09:47:03.685 [main] INFO  com.orangehrm.pages.BasePage - ➕ Click thêm nhân viên mới
+2026-06-03 09:47:13.696 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận form thêm nhân viên hiển thị
+2026-06-03 09:47:13.706 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điền thông tin nhân viên: Test AutoUser3705
+2026-06-03 09:47:14.062 [main] INFO  com.orangehrm.pages.BasePage - 📝 Điền thông tin: Test  AutoUser3705
+2026-06-03 09:47:14.062 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Lưu thông tin nhân viên
+2026-06-03 09:47:24.245 [main] INFO  com.orangehrm.pages.BasePage - 💾 Đã lưu thông tin nhân viên
+2026-06-03 09:47:24.246 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận lưu thành công
+2026-06-03 09:47:54.910 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_002 PASSED: Thêm nhân viên Test AutoUser3705 thành công
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:45:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:45:59 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Emp_003_addEmployeeWithEmptyLastName" classname="com.orangehrm.tests.EmployeeTest" time="42.796">
+    <system-out><![CDATA[2026-06-03 09:47:54.911 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_002_addNewEmployeeSuccessfully] - Thời gian: 75s
+2026-06-03 09:47:55.303 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:47:55.303 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:47:55.305 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:47:56.252 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:47:56.253 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:48:01.570 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:48:01.572 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:48:02.266 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:48:02.419 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:48:13.898 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:48:23.983 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_003_addEmployeeWithEmptyLastName]
+2026-06-03 09:48:23.985 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến PIM và click Add Employee
+2026-06-03 09:48:24.456 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 09:48:46.284 [main] INFO  com.orangehrm.pages.BasePage - ➕ Click thêm nhân viên mới
+2026-06-03 09:48:56.317 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Chỉ nhập First Name, bỏ trống Last Name
+2026-06-03 09:48:56.600 [main] INFO  com.orangehrm.pages.BasePage - 📝 Điền thông tin: TestOnly  
+2026-06-03 09:48:56.600 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Click Save với Last Name trống
+2026-06-03 09:49:06.766 [main] INFO  com.orangehrm.pages.BasePage - 💾 Đã lưu thông tin nhân viên
+2026-06-03 09:49:06.767 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận thông báo lỗi validation xuất hiện
+2026-06-03 09:49:06.779 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_003 PASSED: Validation hoạt động đúng khi thiếu Last Name
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:47:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:47:56 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Emp_004_searchEmployeeByName" classname="com.orangehrm.tests.EmployeeTest" time="22.417">
+    <system-out><![CDATA[2026-06-03 09:49:06.780 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_003_addEmployeeWithEmptyLastName] - Thời gian: 42s
+2026-06-03 09:49:07.196 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:49:07.196 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:49:07.198 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:49:08.030 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:49:08.030 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:49:11.567 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:49:11.567 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:49:12.152 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:49:12.291 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:49:13.546 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:49:25.155 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_004_searchEmployeeByName]
+2026-06-03 09:49:25.156 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến trang danh sách nhân viên
+2026-06-03 09:49:25.626 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 09:49:36.632 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Tìm kiếm nhân viên với từ khóa 'a'
+2026-06-03 09:49:36.781 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Tìm kiếm nhân viên: a
+2026-06-03 09:49:47.553 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Thực hiện tìm kiếm
+2026-06-03 09:49:47.554 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận có kết quả tìm kiếm
+2026-06-03 09:49:47.571 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_004 PASSED: Tìm kiếm trả về 50 kết quả
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:49:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:49:08 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Emp_005_searchNonExistentEmployee" classname="com.orangehrm.tests.EmployeeTest" time="32.973">
+    <system-out><![CDATA[2026-06-03 09:49:47.572 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_004_searchEmployeeByName] - Thời gian: 22s
+2026-06-03 09:49:47.937 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:49:47.937 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:49:47.939 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:49:48.806 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:49:48.807 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:50:01.170 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:50:01.170 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:50:01.850 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:50:01.991 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:50:13.274 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:50:23.320 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_005_searchNonExistentEmployee]
+2026-06-03 09:50:23.321 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến danh sách nhân viên
+2026-06-03 09:50:23.769 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 09:50:35.302 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Tìm kiếm với tên ngẫu nhiên không tồn tại
+2026-06-03 09:50:35.467 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Tìm kiếm nhân viên: XYZ_NONEXISTENT_1780455035302
+2026-06-03 09:50:46.226 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Thực hiện tìm kiếm
+2026-06-03 09:50:46.228 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận không có kết quả hoặc hiển thị 'No Records Found'
+2026-06-03 09:50:56.292 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_005 PASSED: Hiển thị đúng khi không tìm thấy nhân viên
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:49:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:49:48 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Emp_006_resetSearchFilter" classname="com.orangehrm.tests.EmployeeTest" time="45.968">
+    <system-out><![CDATA[2026-06-03 09:50:56.293 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_005_searchNonExistentEmployee] - Thời gian: 32s
+2026-06-03 09:50:56.627 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:50:56.627 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:50:56.629 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:50:57.474 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:50:57.475 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:51:08.478 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:51:08.478 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:51:09.508 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:51:09.655 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:51:21.400 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:51:31.476 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_006_resetSearchFilter]
+2026-06-03 09:51:31.478 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến danh sách nhân viên
+2026-06-03 09:51:31.960 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 09:51:43.502 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Lấy số lượng nhân viên ban đầu
+2026-06-03 09:51:43.527 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Tìm kiếm để lọc danh sách
+2026-06-03 09:51:43.686 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Tìm kiếm nhân viên: admin
+2026-06-03 09:51:54.504 [main] INFO  com.orangehrm.pages.BasePage - 🔍 Thực hiện tìm kiếm
+2026-06-03 09:52:04.574 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Click Reset để xóa bộ lọc
+2026-06-03 09:52:17.424 [main] INFO  com.orangehrm.pages.BasePage - 🔄 Reset bộ lọc
+2026-06-03 09:52:17.440 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận danh sách trở về trạng thái ban đầu
+2026-06-03 09:52:17.444 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_006 PASSED: Reset bộ lọc thành công (0 → 50 nhân viên)
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:50:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:50:57 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Emp_007_verifyAutoGeneratedEmployeeId" classname="com.orangehrm.tests.EmployeeTest" time="35.902">
+    <system-out><![CDATA[2026-06-03 09:52:17.445 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_006_resetSearchFilter] - Thời gian: 45s
+2026-06-03 09:52:17.747 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:52:17.747 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:52:17.748 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:52:18.445 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:52:18.446 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:52:25.178 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:52:25.178 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:52:26.747 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:52:26.921 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:52:39.958 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:52:50.036 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Emp_007_verifyAutoGeneratedEmployeeId]
+2026-06-03 09:52:50.037 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Điều hướng đến form thêm nhân viên
+2026-06-03 09:52:51.523 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module PIM
+2026-06-03 09:53:15.845 [main] INFO  com.orangehrm.pages.BasePage - ➕ Click thêm nhân viên mới
+2026-06-03 09:53:25.893 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra Employee ID được tự động tạo
+2026-06-03 09:53:25.938 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_EMP_007 PASSED: Employee ID tự động được tạo: 0396
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:52:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:52:18 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Admin_001_accessAdminModule" classname="com.orangehrm.tests.AdminTest" time="0.01">
+    <system-out><![CDATA[2026-06-03 09:16:35.765 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_001_viewEmployeeList] - Thời gian: 12s
+2026-06-03 09:16:36.180 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:16:36.181 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:16:36.183 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:16:37.059 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:16:37.059 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:16:51.890 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:16:51.892 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:16:53.152 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:16:53.312 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:17:09.756 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:17:20.340 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Admin
+2026-06-03 09:17:31.384 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_001_accessAdminModule]
+2026-06-03 09:17:31.385 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận module Admin đã mở
+2026-06-03 09:17:31.394 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_ADMIN_001 PASSED: Module Admin truy cập thành công
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:16:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:16:37 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Admin_001_accessAdminModule" classname="com.orangehrm.tests.AdminTest" time="0.01">
+    <system-out><![CDATA[2026-06-03 09:53:25.939 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Emp_007_verifyAutoGeneratedEmployeeId] - Thời gian: 35s
+2026-06-03 09:53:26.367 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:53:26.367 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:53:26.369 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:53:27.258 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:53:27.258 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:53:32.368 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:53:32.368 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:53:32.954 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:53:33.080 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:53:44.408 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:53:54.912 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Admin
+2026-06-03 09:54:05.917 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_001_accessAdminModule]
+2026-06-03 09:54:05.918 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận module Admin đã mở
+2026-06-03 09:54:05.926 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_ADMIN_001 PASSED: Module Admin truy cập thành công
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:53:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:53:27 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Admin_002_systemUsersListDisplayed" classname="com.orangehrm.tests.AdminTest" time="0.015">
+    <system-out><![CDATA[2026-06-03 09:54:05.927 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Admin_001_accessAdminModule] - Thời gian: 0s
+2026-06-03 09:54:06.332 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:54:06.332 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:54:06.334 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:54:07.210 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:54:07.211 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:54:10.864 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:54:10.864 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:54:11.448 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:54:11.575 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:54:23.361 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:54:33.942 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Admin
+2026-06-03 09:54:44.925 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_002_systemUsersListDisplayed]
+2026-06-03 09:54:44.926 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra danh sách người dùng
+2026-06-03 09:54:44.940 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận có ít nhất 1 người dùng (Admin)
+2026-06-03 09:54:44.941 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_ADMIN_002 PASSED: Danh sách hiển thị 5 người dùng
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:54:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:54:07 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Admin_003_searchUserByUsername" classname="com.orangehrm.tests.AdminTest" time="30.746">
+    <failure message="Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.cssSelector: .oxd-form-actions button.oxd-button--primary&apos; (tried for 20 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: .oxd-form-actions button.oxd-button--primary' (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.orangehrm.pages.BasePage.waitForClickable(BasePage.java:40)
+	at com.orangehrm.pages.AdminPage.searchByUsername(AdminPage.java:45)
+	at com.orangehrm.tests.AdminTest.tc_Admin_003_searchUserByUsername(AdminTest.java:64)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".oxd-form-actions button.oxd-button--primary"}
+  (Session info: chrome=148.0.7778.217)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ee024c8c85c51b88b55b3c0aa470ce97, findElement {using=css selector, value=.oxd-form-actions button.oxd-button--primary}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\THINKP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56950}, goog:processID: 8444, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56950/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ee024c8c85c51b88b55b3c0aa470ce97
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 33 more
+]]></failure>
+    <system-out><![CDATA[2026-06-03 09:54:44.941 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Admin_002_systemUsersListDisplayed] - Thời gian: 0s
+2026-06-03 09:54:45.322 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:54:45.322 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:54:45.323 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:54:46.227 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:54:46.228 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:54:50.132 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:54:50.133 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:54:50.741 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:54:50.883 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:55:02.399 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:55:12.935 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Admin
+2026-06-03 09:55:23.922 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_003_searchUserByUsername]
+2026-06-03 09:55:23.923 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Tìm kiếm người dùng với username 'Admin'
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:54:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:54:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Admin_004_searchNonExistentUser" classname="com.orangehrm.tests.AdminTest" time="30.768">
+    <failure message="Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.cssSelector: .oxd-form-actions button.oxd-button--primary&apos; (tried for 20 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: .oxd-form-actions button.oxd-button--primary' (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.orangehrm.pages.BasePage.waitForClickable(BasePage.java:40)
+	at com.orangehrm.pages.AdminPage.searchByUsername(AdminPage.java:45)
+	at com.orangehrm.tests.AdminTest.tc_Admin_004_searchNonExistentUser(AdminTest.java:79)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".oxd-form-actions button.oxd-button--primary"}
+  (Session info: chrome=148.0.7778.217)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4b564414c04b70dfaf152d954ba06866, findElement {using=css selector, value=.oxd-form-actions button.oxd-button--primary}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\THINKP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, goog:processID: 31060, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64517/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b564414c04b70dfaf152d954ba06866
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 33 more
+]]></failure>
+    <system-out><![CDATA[2026-06-03 09:55:54.669 [main] ERROR com.orangehrm.listeners.TestListener - ❌ FAILED: [tc_Admin_003_searchUserByUsername]
+2026-06-03 09:55:54.669 [main] ERROR com.orangehrm.listeners.TestListener -    Lý do: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: .oxd-form-actions button.oxd-button--primary' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-03 09:55:55.204 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:55:55.204 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:55:55.206 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:55:56.038 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:55:56.038 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:56:03.245 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:56:03.245 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:56:04.064 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:56:04.229 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:56:15.594 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:56:26.216 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Admin
+2026-06-03 09:56:37.217 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_004_searchNonExistentUser]
+2026-06-03 09:56:37.219 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Tìm kiếm username không tồn tại
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:55:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:55:56 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Admin_005_resetAdminSearchFilter" classname="com.orangehrm.tests.AdminTest" time="30.732">
+    <failure message="Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.cssSelector: .oxd-form-actions button.oxd-button--primary&apos; (tried for 20 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: .oxd-form-actions button.oxd-button--primary' (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.orangehrm.pages.BasePage.waitForClickable(BasePage.java:40)
+	at com.orangehrm.pages.AdminPage.searchByUsername(AdminPage.java:45)
+	at com.orangehrm.tests.AdminTest.tc_Admin_005_resetAdminSearchFilter(AdminTest.java:96)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".oxd-form-actions button.oxd-button--primary"}
+  (Session info: chrome=148.0.7778.217)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b05a7eddfb1c995a01c9d85ae280ce3a, findElement {using=css selector, value=.oxd-form-actions button.oxd-button--primary}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\THINKP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62916}, goog:processID: 35416, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62916/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b05a7eddfb1c995a01c9d85ae280ce3a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 33 more
+]]></failure>
+    <system-out><![CDATA[2026-06-03 09:57:07.986 [main] ERROR com.orangehrm.listeners.TestListener - ❌ FAILED: [tc_Admin_004_searchNonExistentUser]
+2026-06-03 09:57:07.986 [main] ERROR com.orangehrm.listeners.TestListener -    Lý do: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: .oxd-form-actions button.oxd-button--primary' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-03 09:57:08.528 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:57:08.528 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:57:08.530 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:57:09.376 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:57:09.377 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:57:10.192 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:57:10.193 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:57:15.983 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:57:16.174 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:57:27.604 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:57:38.148 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Admin
+2026-06-03 09:57:49.136 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Admin_005_resetAdminSearchFilter]
+2026-06-03 09:57:49.137 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Tìm kiếm 'Admin' để lọc danh sách
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:57:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:57:09 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Leave_001_accessLeaveModule" classname="com.orangehrm.tests.LeaveTest" time="0.008">
+    <system-out><![CDATA[2026-06-03 09:17:31.395 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Admin_001_accessAdminModule] - Thời gian: 0s
+2026-06-03 09:17:31.732 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:17:31.733 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:17:31.734 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:17:32.671 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:17:32.672 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:17:39.900 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:17:39.901 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:17:40.728 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:17:40.921 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:17:52.286 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:18:02.792 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Leave
+2026-06-03 09:18:13.798 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_001_accessLeaveModule]
+2026-06-03 09:18:13.800 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang Leave List hiển thị
+2026-06-03 09:18:13.807 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LEAVE_001 PASSED: Truy cập module Leave thành công
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:17:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:17:32 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Leave_001_accessLeaveModule" classname="com.orangehrm.tests.LeaveTest" time="0.008">
+    <system-out><![CDATA[2026-06-03 09:58:19.868 [main] ERROR com.orangehrm.listeners.TestListener - ❌ FAILED: [tc_Admin_005_resetAdminSearchFilter]
+2026-06-03 09:58:19.869 [main] ERROR com.orangehrm.listeners.TestListener -    Lý do: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: .oxd-form-actions button.oxd-button--primary' (tried for 20 second(s) with 500 milliseconds interval)
+2026-06-03 09:58:20.443 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:58:20.443 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:58:20.445 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:58:21.295 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:58:21.296 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:58:27.406 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:58:27.406 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:58:28.205 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:58:28.363 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:58:39.660 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:58:50.986 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Leave
+2026-06-03 09:59:02.921 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_001_accessLeaveModule]
+2026-06-03 09:59:02.922 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang Leave List hiển thị
+2026-06-03 09:59:02.929 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LEAVE_001 PASSED: Truy cập module Leave thành công
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:58:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:58:21 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Leave_002_viewLeaveList" classname="com.orangehrm.tests.LeaveTest" time="0.016">
+    <system-out><![CDATA[2026-06-03 09:59:02.929 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Leave_001_accessLeaveModule] - Thời gian: 0s
+2026-06-03 09:59:03.290 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:59:03.290 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:59:03.292 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:59:04.215 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:59:04.216 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:59:07.669 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:59:07.669 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:59:08.374 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:59:08.503 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:59:20.582 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 09:59:31.093 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Leave
+2026-06-03 09:59:42.123 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_002_viewLeaveList]
+2026-06-03 09:59:42.124 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Kiểm tra danh sách nghỉ phép
+2026-06-03 09:59:42.138 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Ghi nhận số lượng yêu cầu nghỉ phép
+2026-06-03 09:59:42.139 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LEAVE_002 PASSED: Danh sách nghỉ phép hiển thị 1 yêu cầu
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:59:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:59:04 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Leave_003_filterLeaveByDateRange" classname="com.orangehrm.tests.LeaveTest" time="30.834">
+    <system-out><![CDATA[2026-06-03 09:59:42.139 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Leave_002_viewLeaveList] - Thời gian: 0s
+2026-06-03 09:59:42.586 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 09:59:42.587 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 09:59:42.589 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 09:59:43.527 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 09:59:43.528 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 09:59:47.286 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 09:59:47.287 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 09:59:47.885 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 09:59:48.013 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 09:59:49.566 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 10:00:01.569 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Leave
+2026-06-03 10:00:12.560 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_003_filterLeaveByDateRange]
+2026-06-03 10:00:12.561 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Thiết lập ngày bắt đầu lọc
+2026-06-03 10:00:22.589 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Thiết lập ngày kết thúc lọc
+2026-06-03 10:00:32.614 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Click tìm kiếm
+2026-06-03 10:00:43.389 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận tìm kiếm không gây lỗi
+2026-06-03 10:00:43.395 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LEAVE_003 PASSED: Lọc theo ngày hoạt động bình thường
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 9:59:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 9:59:43 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="tc_Leave_004_resetLeaveFilter" classname="com.orangehrm.tests.LeaveTest" time="31.502">
+    <system-out><![CDATA[2026-06-03 10:00:43.395 [main] INFO  com.orangehrm.listeners.TestListener - ✅ PASSED: [tc_Leave_003_filterLeaveByDateRange] - Thời gian: 30s
+2026-06-03 10:00:43.773 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Đã đóng WebDriver
+2026-06-03 10:00:43.773 [main] INFO  com.orangehrm.tests.BaseTest - 🧹 Teardown hoàn tất - WebDriver đã đóng
+2026-06-03 10:00:43.775 [main] INFO  com.orangehrm.utils.DriverManager - 🚀 Khởi tạo chrome driver (headless=false)
+2026-06-03 10:00:44.701 [main] INFO  com.orangehrm.utils.DriverManager - ✅ Khởi tạo driver thành công
+2026-06-03 10:00:44.701 [main] INFO  com.orangehrm.tests.BaseTest - 🔧 Setup hoàn tất - WebDriver đã sẵn sàng
+2026-06-03 10:00:48.297 [main] INFO  com.orangehrm.pages.BasePage - 🌐 Điều hướng đến: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-06-03 10:00:48.297 [main] INFO  com.orangehrm.pages.BasePage - 📄 Mở trang đăng nhập OrangeHRM
+2026-06-03 10:00:48.891 [main] INFO  com.orangehrm.pages.BasePage - 👤 Nhập username: Admin
+2026-06-03 10:00:49.000 [main] INFO  com.orangehrm.pages.BasePage - 🔐 Nhập password
+2026-06-03 10:01:00.327 [main] INFO  com.orangehrm.pages.BasePage - 🖱️ Click nút Login (expect: success)
+2026-06-03 10:01:10.851 [main] INFO  com.orangehrm.pages.BasePage - 📌 Điều hướng đến module Leave
+2026-06-03 10:01:21.839 [main] INFO  com.orangehrm.listeners.TestListener - ▶️ Bắt đầu test: [tc_Leave_004_resetLeaveFilter]
+2026-06-03 10:01:21.841 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Lọc theo ngày để thay đổi danh sách
+2026-06-03 10:01:42.631 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Reset bộ lọc
+2026-06-03 10:01:53.334 [main] INFO  com.orangehrm.tests.BaseTest - 📋 Xác nhận trang Leave vẫn hiển thị sau reset
+2026-06-03 10:01:53.342 [main] INFO  com.orangehrm.tests.BaseTest - ✅ TC_LEAVE_004 PASSED: Reset bộ lọc Leave thành công
+]]></system-out>
+    <system-err><![CDATA[Jun 03, 2026 10:00:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+Jun 03, 2026 10:00:44 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.217. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>
